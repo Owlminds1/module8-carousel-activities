@@ -1,0 +1,40 @@
+[
+    {
+        "question":"The genesis of this product (refer to the video): How did Babytoon begin as a product?",
+        "answers":"Prototype (first experiment to be tried and tested) was created at the science fair when the kid entrepreneur was in 1st grade. Since then, the product evolved with the help of her mum and family friends.",
+        "img":"/C57Images/Genesis.png"
+    },
+    
+    
+    {
+        "question":"The motivation for product design: What inspired Cassidy to create the shape and form of the Babytoon?",
+        "answers":"Cassidy’s sister seemed to struggle to eat with a regular spoon so Cassidy decided to take the spoon’s design in her own hands!",
+        "img":"/C57Images/Product.png"
+    } ,
+    
+    {
+        "question":"Early adopters (to encourage & try the prototype): Who were the first people to try Cassidy’s product?",
+        "answers":"First and foremost, Cassidy’s mom. Then of course teachers, family friends, the initial customers ($5000 in sales) and finally Shark Tank’s investor.",
+        "img":"/C57Images/Sales.png"
+    },
+
+     {
+        "question":"The personality of the kid entrepreneur: What is Cassidy’s personality like?",
+        "answers":"She is a go-getter, open-minded, very honest about how she is, and collaborative and an inspired kid entrepreneur.",
+        "img":"/C57Images/Cassidy.png"
+    },
+    
+    
+    {
+        "question":"The judges’ perception of the kid entrepreneur: What do the judges think about Cassidy?",
+        "answers":"The Shark Tank judges see her as exactly the way she sees herself. Plus, they think she is incredibly smart and self-aware for someone who is barely 10! They even think she is capable of being a judge on Shark Tank someday!",
+        "img":"/C57Images/Judges.png"
+    },
+    
+    
+    {
+        "question":"Transformation from science fair prototype until the video you just watched: How did Babytoon evolve?",
+        "answers":"The idea originated from the willingness to solve a problem to trying to design a product in first grade. Since then, Cassidy has teamed up with her mum to create a compact, well-built design that’s made over 5,000$ in sales in barely any time. She even made it to Shark Tank to find their first investor!",
+        "img":"/C57Images/Final-product.png"
+    }
+]

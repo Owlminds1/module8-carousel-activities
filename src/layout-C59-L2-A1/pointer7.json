@@ -1,0 +1,24 @@
+[
+    
+{
+        "title":"Lead",
+        "question":"Start with a relatable scenario or challenge.",
+        "answers":"You’re outside for a jog. Headphones on. A new place."
+    },{
+        "title":"Obstacle",
+        "question":"Introduce the main problem.",
+        "answers":"But there’s no network. So no favorite songs. No location. And your heart rate seems to be a bit off."
+    },
+
+    {
+        "title":"Consequence",
+        "question":"State what happens if that challenge is not addressed.",
+        "answers":"You are not so sure who to contact if you need to and with what."
+    },
+
+     {
+        "title":"Knockout",
+        "question":"Present your product as an innovative solution.",
+        "answers":"Introducing Apple Watch. Connect easily with 5G. Know your location using reliable GPS. Jog to your favorite music. Get some peace of mind."
+    }
+]

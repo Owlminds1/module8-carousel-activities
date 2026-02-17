@@ -1,0 +1,29 @@
+[
+    {
+        "img":"/C59Images/A.png",
+        "question":"What is the problem that Stewie and his dog face while selling the product?",
+        "opt":["Customers don’t like salt water taffy, the gum they are selling.","Customers like salt water taffy but don’t want to pay for it","Customers don’t like salt water taffy because they don’t like Stewie and his dog."],
+        "ans":["Customers don’t like salt water taffy, the gum they are selling."]
+    },
+
+     {
+        "img":"/C59Images/B.png",
+        "question":"What other ways of selling do they think of?",
+        "opt":["They think of repackaging it as something people want.","They think of selling it to the other candy store","They think of eating it","They think of selling it to someone who’d buy it in bulk"],
+        "ans":["They think of repackaging it as something people want.","They think of selling it to someone who’d buy it in bulk"]
+    },
+
+     {
+        "img":"/C59Images/C.png",
+        "question":"What are some ideas they brainstorm?",
+        "opt":["Colored layered sand in bottles.","Bottles with layered sand in it that’s different colors.","Candy in paper bags","Colored candy in cardboard boxes"],
+        "ans":["Colored layered sand in bottles.","Bottles with layered sand in it that’s different colors."]
+    },
+
+      {
+        "img":"/C59Images/D.png",
+        "question":"What is the final solution?",
+        "opt":["They rebranded the candy as a chew on to sell it","They gave away all the candy for free","Candy in paper bags","They put all the candy in the garbage can"],
+        "ans":["They rebranded the candy as a chew on to sell it"]
+    }
+]

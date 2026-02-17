@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Raincoat",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "PAIN-KILLER"
+    },
+    {
+        "question": "Bookshelf",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "PAIN-KILLER"
+    },
+    {
+        "question": "Coffee Table",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "VITAMIN"
+    },
+    {
+        "question": "Water Bottle",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "PAIN-KILLER"
+    },
+    {
+        "question": "Drying Rack",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "PAIN-KILLER"
+    },
+    {
+        "question": "Posters",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "VITAMIN"
+    },
+    {
+        "question": "Dresses with Pockets",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "VITAMIN"
+    },
+    {
+        "question": "Perfume",
+        "answers": [
+            "VITAMIN",
+            "PAIN-KILLER"
+        ],
+        "val": "VITAMIN"
+    }
+]

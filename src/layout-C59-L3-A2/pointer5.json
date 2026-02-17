@@ -1,0 +1,28 @@
+[
+    
+{
+        "title":"Lead",
+        "subHeading":"",
+        "question":"Start with a relatable scenario or challenge.",
+        "answers":"Tired of losing things all the time?"
+    },{
+        "title":"Obstacle",
+        "subHeading":"",
+        "question":"Introduce the main problem.",
+        "answers":"You have to use your keys, backpack, and bike. Don’t remember where you put them? What if they are far? Traditional trackers don’t find what’s far."
+    },
+
+    {
+        "title":"Consequence",
+        "subHeading":"",
+        "question":"State what happens if that challenge is not addressed.",
+        "answers":"With missing essentials, imagine the amount of time you’d spend finding, not to mention how you’d feel if not found."
+    },
+
+     {
+        "title":"Knockout",
+        "subHeading":"Apple AirTag is the simple, smart solution. Attach it to your keys, bags and instantly track it with the Find My app. With precision tracking, sound alerts, and seamless integration with your iPhone, losing things is now a thing of the past",
+        "question":"Present your product as an innovative solution.",
+        "answers":"Let AirTag let you lose the knack of losing things. Find all your essentials with just a voice command or a sound. Share it with up to five people in your circle! If far, the network of Apple devices will find your items on time!"
+    }
+]

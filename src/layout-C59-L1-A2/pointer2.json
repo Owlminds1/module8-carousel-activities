@@ -1,0 +1,57 @@
+[
+    {
+        "img":"/C59Images/slide1.png",
+        "question":"What’s the word that’s repeated over and over again throughout the ad?",
+        "response":"BUILD"
+    },
+
+     {
+        "img":"/C59Images/slideB.png",
+        "question":"Do we know how many years they have been building",
+        "response":"YES"
+    },
+
+     {
+        "img":"/C59Images/slideC.png",
+        "question":"Why is this important information?",
+        "response":"ESTABLISHES CREDIBILITY"
+    },
+
+      {
+        "img":"/C59Images/slideD.png",
+        "question":"Do they say only certain people can build?",
+        "response":"NO. They are saying any human can build because it’s natural for humans to build things"
+    },
+
+      {
+        "img":"/C59Images/slideE.png",
+        "question":"What inspires us to build?",
+        "response":"THE WORLD AROUND US"
+    },
+
+     {
+        "img":"/C59Images/slideF.png",
+        "question":"What qualities are present in what we build?",
+        "response":"BIGGER, STRONGER, STRANGER"
+    },
+
+    {
+        "img":"/C59Images/slideG.png",
+        "question":"How is this play of words interesting?",
+        "response":"It talks about making something better than it actually is"
+    },
+
+
+
+       {
+        "img":"/C59Images/slideH.png",
+        "question":"What do LEGO bricks help build?",
+        "response":"COMMUNITIES, HOMES, FAMILIES, ART, MASTERPIECES, WONDERS, LIVES, RELATIONSHIPS, LOVE, SOLUTIONS"
+    },
+
+     {
+        "img":"/C59Images/slideI.png",
+        "question":"So how does the brand help build the mind?",
+        "response":"MAKES IT PLAYFUL"
+    }
+]

@@ -1,0 +1,15 @@
+[
+     {
+        "question":"What is the main problem your idea is trying to solve?",
+        "ans":"The new model includes features that “maximise performance, battery capacity and durability.”"
+    }, {
+        "question":"What are the most important features that allow your solution to work?",
+        "ans":"Ultimate Pro camera system, A19 pro chip for a higher sustained performance, a cooling system to move the heat away from the core processor."
+    },
+    
+    {
+        "question":"What are the absolute basic parts needed for your solution to be usable and helpful?",
+        "ans":"iOS 26. 6-core CPU, thermal design, neural accelerators, high-performance battery"
+    }
+
+]

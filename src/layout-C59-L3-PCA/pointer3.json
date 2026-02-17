@@ -1,0 +1,19 @@
+[
+     {
+  
+        "title":"Slide 1: Title & Introduction",
+        "answers":["Title of the Presentation: The Journey of [Product Name]","Image of the product"]
+    },
+
+     {
+  
+        "title":"Slide 2: Production & Materials",
+        "answers":["What is it made of? (Raw materials & sources)","Where are these materials found? (Countries)"," Interesting fact: e.g., “It takes X liters of water to make one unit."]
+    },
+
+     {
+  
+        "title":"Slide 3: Global Spread",
+        "answers":[" How did it spread globally? (Trade routes, marketing, technology)"," What kind of ads in different countries promote it?"," How does the strategy vary to reach a variety of audience through messages and brand ambassadors?"]
+    }
+]

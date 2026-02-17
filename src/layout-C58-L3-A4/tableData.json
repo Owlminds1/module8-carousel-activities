@@ -1,0 +1,55 @@
+[
+    {
+        "categories":"User Data",
+        "ans":["List your name and email address","Select your age group","Select your school","Select your profession"],
+        "suggestion":"Customer information to identify user personas."
+    },
+    
+    {
+        "categories":"User Experience",
+        "ans":["How would you rate your experience with Managebac? (1 to 5, 5 being excellent and 1 being okay)","What features do you use most frequently? (checklist, multiple responses can be selected)","What features do you use rarely? (checklist, multiple responses can be selected)"],
+        "suggestion":"How the user interacts with the interface after three years of usage."
+    },
+
+     {
+        "categories":"Product Design",
+        "ans":["Rating of all the specific features from 1 to 5 (1 to 5, 5 being excellent and 1 being okay). For example: How would you rate this feature of Managebac?","Which device do you use to conduct learning experiences? (desktop, ipad, phone, laptop)","Rating of functionality and smoothness of the interface (1 to 5, 5 being excellent and 1 being okay). For example: How would you rate the ease of using Managebac on all devices?"],
+        "suggestion":"Design and features of the product that users appreciate over time."
+    },
+
+
+     {
+        "categories":"Customer Service",
+        "ans":["How would you rate customer interaction with the Managebac staff? (1 to 5, 5 being excellent and 1 being okay)","How would you rate Managebac staff’s response time by phone? (1 to 5, 5 being excellent and 1 being okay)","How would you rate Managebac staff’s response time by email? (1 to 5, 5 being excellent and 1 being okay)","How would you rate Managebac staff’s response time by webform? (1 to 5, 5 being excellent and 1 being okay)"],
+        "suggestion":"How the customer has been interacting with the company staff."
+    },
+     {
+        "categories":"Communication",
+        "ans":["Do you share information about Managebac with potential users? (Yes or No)","How do you share information about Managebac with potential users? (socials, word of mouth, school platform)","How do you discover updates to the interface? (Managebac website, newsletter, colleague, school newsletter, Managebac socials)","Do you engage in Managebac’s referral programs?  (Yes or No)"],
+        "suggestion":"How the customers have been discovering or sharing information about the company or the product"
+    },
+    
+    {
+        "categories":"Pricing",
+        "ans":["Do you find Managebac affordable?  (Yes or No)","Will you be willing to pay more for additional features with a more robust design? (Yes or No)"],
+        "suggestion":"How affordable the price points for each product or service"
+    },
+
+    {
+        "categories":"Sustainability",
+        "ans":["How has Managebac improved your learning experience?","How has Managebac improved your teaching experience?","How has Managebac improved your school management experience?"],
+        "suggestion":"How the customers have enjoyed the product over time"
+    },
+
+     {
+        "categories":"Innovation",
+        "ans":["How can Managebac assist you in enhancing your experience?","What problems have you encountered in designing learning experiences?"],
+        "suggestion":"What additional features would the customers like to see?"
+    },
+
+     {
+        "categories":"Feedback",
+        "ans":["Please tell us how we can improve to serve you better"],
+        "suggestion":"What the customers think the brand can improve"
+    }
+]

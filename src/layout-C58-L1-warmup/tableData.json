@@ -1,0 +1,30 @@
+[
+    {
+        "text":"P",
+        "width":"20%"
+    },
+     {
+        "text":"PI",
+        "width":"30%"
+    },
+    
+    {
+        "text":"PIN",
+        "width":"50%"
+    },
+    
+    {
+        "text":"PINK",
+        "width":"60%"
+    },
+    
+    {
+        "text":"PLACE",
+        "width":"80%"
+    },
+    
+    {
+        "text":"PILLAR",
+        "width":"100%"
+    }
+]

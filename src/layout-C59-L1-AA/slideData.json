@@ -1,0 +1,26 @@
+[
+    {
+        "image":"/C59Images/Nike.jpg",
+        "text":"Exactly! Shoes are their primary product along with secondary products like jumpers. The reason why we know shoes are primary is because they stand out with the colors emitting from them! This kind of ad is made to appeal to sporty women who are confident and go-getters!",
+        "Revealimage":"/C59Images/Nike_AD.jpeg"
+    },
+
+     {
+        "image":"/C59Images/IPhone.jpeg",
+        "text":"Exactly! IPhone is what they are advertising and the main feature on display is the camera. Apple has always been very proud of its camera and encourages thinking and being different from others. So this would appeal to people who like images, being different, and enjoying!",
+        "Revealimage":"/C59Images/IPhone_AD.jpeg"
+    },
+    
+    
+    {
+        "image":"/C59Images/Bose.jpeg",
+        "text":"Exactly! This is an ad for Bose’s noise cancellation headphones that make sure that the outside world doesn’t interrupt your smooth listening experience. The dogs are shown as going into the ground because when you’re deep, you don’t hear a thing! This is meant for all loving beings who like privacy but also play!",
+        "Revealimage":"/C59Images/Bose_AD.jpeg"
+    },
+    
+    {
+        "image":"/C59Images/PS.jpg",
+        "text":"Exactly! This is Playstation trying to lure you into the world of their characters who look nothing less than superheroes! The image shows what the games would actually be like when you play. They would appeal to anyone who feels like there’s a superhero in them.",
+        "Revealimage":"/C59Images/PS_AD.jpg"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    
+{
+        "title":"Lead",
+        "subHeading":"(Relatable Scenario)",
+        "question":"Start with a relatable scenario or challenge.",
+        "answers":"Imagine you’re rushing between meetings, trying to squeeze in a workout, and keeping up with family calls—all while your phone is buzzing in your pocket."
+    },{
+        "title":"Obstacle",
+        "subHeading":"(Main Problem)",
+        "question":"Introduce the main problem.",
+        "answers":"It’s tough to stay organized, track your health, and manage notifications without constantly pulling out your phone. Most people end up missing important reminders or losing track of their fitness goals."
+    },
+
+    {
+        "title":"Consequence",
+        "subHeading":"(What Happens if Not Addressed)",
+        "question":"State what happens if that challenge is not addressed.",
+        "answers":"If this continues, you may feel more stressed, miss critical updates, and struggle to maintain your health goals because your tools aren’t designed to keep up with your lifestyle."
+    },
+
+     {
+        "title":"Knockout",
+        "subHeading":"(Innovative Solution)",
+        "question":"Present your product as an innovative solution.",
+        "answers":"That’s where the Apple Watch changes everything. It keeps your health stats, calls, and notifications right on your wrist, tracks your workouts in real time, reminds you to stand or breathe, and even lets you pay instantly with Apple Pay. It’s like having a personal assistant, fitness coach, and health monitor, all in one sleek device."
+    }
+]

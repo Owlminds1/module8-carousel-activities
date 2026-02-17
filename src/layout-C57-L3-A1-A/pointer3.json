@@ -1,0 +1,55 @@
+[
+      {
+        "Question":"What’s the product?",
+        "Answer":["BabyToon, spoon product for babies."]
+    },
+      {
+        "Question":"What problem does it solve?",
+        "Answer":["It ensures the safety of kids while eating.","BabyToon isn’t sharp or long unlike traditional spoons that can be unsafe if kids poke or use without paying attention.","BabyToon is easy and safe to use with its rectangular design with durable material of silicon made for baby’s protection while self-feeding.","It can also prevent the kids from throwing it on the floor by using a pacifier belt around the spoon."]
+    },
+
+     {
+        "Question":"Who are the customers?",
+        "Answer":["Parents with kids"]
+    },{
+        "Question":"Where is the presenter from? Who’s assisting the presenter?",
+        "Answer":["Honolulu, Hawaii. She is with her mum."]
+    },
+    
+    {
+        "Question":"Where did the presenter make the prototype?",
+        "Answer":["At the science fair (1st Grade)"]
+    } ,
+    
+    {
+        "Question":"What is the response of the judging panel?",
+        "Answer":["They like the product but think the market isn’t for them."]
+    },
+    
+    
+    {
+        "Question":"Does the presentation convince any investor?",
+        "Answer":["Yes"]
+    },
+    
+    {
+        "Question":"Who invests and how much?",
+        "Answer":["50,000 $ with 50% share of the company"]
+    },
+    
+    
+    {
+        "Question":"What is the question asked by the investor?",
+        "Answer":["50% is a big share in the company. Are you okay with it?"]
+    },
+    
+    {
+        "Question":"What are the presenters' future goals?",
+        "Answer":["She wants to complete her school. She is okay with 50% since she is just in elementary school. But she plans to make it big when she grows up."]
+    },
+    
+    {
+        "Question":"How old is the presenter? What school year is she in?",
+        "Answer":["She is 10. She is in elementary school."]
+    }
+]

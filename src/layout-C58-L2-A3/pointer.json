@@ -1,0 +1,16 @@
+[
+    "What is your name?",
+    "How old are you?",
+    "Please select your gender (male/female/non-binary/LGBTQ)",
+    "Please select your class (middle school, high school)",
+    "Are you a cheerleader, sports audience, or a sports player?",
+    "What is your sport of choice? (basketball, football, cricket, tennis, martial arts, swimming, badminton, archery, volleyball, rugby)",
+    "When do you go for sports practice? (after school, weekends, sports slot, lunchtime)",
+    "How often do you attend sports tournaments at school? (everytime, often, sometimes, occasionally, rarely)",
+    "How often do you attend inter-school or inter-state sport competitions? (everytime, often, sometimes, occasionally, rarely)",
+    "Would an app that shows the sports calendar, team stats, scores during competitions, and sports-related gatherings, be an exciting app to access on your phone? (YES or NO)",
+    "What are your three favorite colors? (red, yellow, blue, orange, green, purple)",
+    "What are your three favorite shapes? (circle, triangle, square, line, rectangle, oval)",
+    "How do you communicate with friends or peers? (call, email, text, snapchat, instagram, telegram, facebook, at school)",
+    "If you love the app, who would you tell to download it? (friends, family, peers, teachers, teammates)"
+]

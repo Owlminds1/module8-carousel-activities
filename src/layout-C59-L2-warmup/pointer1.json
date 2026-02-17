@@ -1,0 +1,45 @@
+[
+{
+    "image": "/C59Images/Think_Different.jpg",
+    "text":"Think Different” ",
+    "answer":"(Apple or IPhones)"
+},
+
+{
+    "image": "/C59Images/Just_Do_It.jpg",
+    "text":"Just Do It ",
+    "answer":"(Nike or Shoes)"
+},
+
+{
+    "image": "/C59Images/Amul.png",
+    "text":"The Taste of India",
+    "answer":"(Amul or Dairy Products)"
+},
+
+{
+    "image": "/C59Images/Subway2.png",
+    "text":"Eat Fresh",
+    "answer":"(Subway or Subs)"
+},
+
+
+{
+    "image": "/C59Images/Pokemon.jpeg",
+    "text":"Gotta catch 'em all!",
+    "answer":"(Pokemon or Cards)"
+},
+
+
+{
+    "image": "/C59Images/Adidas.jpeg",
+    "text":"Impossible is nothing",
+    "answer":"(Adidas or Shoes)"
+},
+
+{
+    "image": "/C59Images/Sprite.jpeg",
+    "text":"Obey your thirst",
+    "answer":"(Sprite or Soda)"
+}
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "method":"FLYERS",
+        "description":"A small piece of paper with information on it about a product or event.",
+        "img":"/C59Images"
+    },
+
+    {
+        "method":"POSTERS",
+        "description":"A large printed picture, photograph, or notice that you stick or pin to a wall or board, usually for decoration or to advertise something.",
+        "img":"/C59Images/Posters.jpg"
+    },
+
+
+     {
+        "method":"WORD OF MOUTH",
+        "description":"The process of telling people you know about a particular product or service, usually because you think it is good and want to encourage them to try it.",
+        "img":"/C59Images/WordofMouth.jpg"
+    },
+
+     {
+        "method":"OUTREACH",
+        "description":"An effort to bring services or information to people where they live or spend time.",
+        "img":"/C59Images/Outreach.jpg"
+    },
+
+     {
+        "method":"ANNOUNCEMENTS",
+        "description":"Something that someone says officially, giving information about something.",
+        "img":"/C59Images/Announcements.jpg"
+    },
+    
+    
+    {
+        "method":"RECOMMENDATIONS",
+        "description":"A suggestion that something is good or suitable for a particular purpose or job.",
+        "img":"/C59Images/Recommendations.jpg"
+    }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "text": "How can we address customers seeking a user-friendly interface?",
+    "category": "User Experience"
+  },
+  {
+    "id": 2,
+    "text": "In what ways can our products better represent customer personas?",
+    "category": "Product Design"
+  },
+  
+  
+  {
+    "id": 3,
+    "text": "How can our customers benefit from exceptional customer service to purchase our products?",
+    "category": "Customer Service"
+  },
+  
+  {
+    "id": 4,
+    "text": "What are some authentic ways to connect with our customers through branding & marketing?",
+    "category": "Communication"
+  },
+  
+  {
+    "id": 5,
+    "text": "How can we make excellent products that are affordable?",
+    "category": "Pricing"
+  },
+  
+  {
+    "id": 6,
+    "text": "How can we make quality products that are durable?",
+    "category": "Durability"
+  },
+
+   {
+    "id": 7,
+    "text": "How can we improve our products and features while still being effective?",
+    "category": "User Experience"
+  },
+  {
+    "id": 8,
+    "text": "How can we introduce new design with upgraded technology without losing the essence of who we are?",
+    "category": "Product Design"
+  },
+  
+  
+  {
+    "id": 9,
+    "text": "In what ways can we keep our customers happily while using our products?",
+    "category": "Customer Service"
+  },
+  
+  {
+    "id": 10,
+    "text": "How can we create targeted campaigns that maintain customer loyalty and encourage recommendations?",
+    "category": "Communication"
+  },
+  
+  {
+    "id": 11,
+    "text": "What kind of price range do we need to create to cater to diverse user profiles, without letting innovation negatively impact sales?",
+    "category": "Pricing"
+  },
+  
+  {
+    "id": 12,
+    "text": "How can we incorporate customer usage and system reports to make longer lasting products that are still effective and elegant?",
+    "category": "Durability"
+  }
+
+  
+]

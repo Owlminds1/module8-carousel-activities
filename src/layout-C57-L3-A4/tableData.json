@@ -1,0 +1,22 @@
+[
+    {
+        "qus":"What is driving [the supply-demand problem?]",
+        "res":"We are not advertising to the right audience."
+    } ,
+    
+    
+    {
+        "qus":"What is driving [the advertising tools problem]?",
+        "res":"We are not sure whether the tools would be effective."
+    },
+    
+    {
+        "qus":"What is driving [the effective tools problem]?",
+        "res":"It’s a high-risk investment for our current budget."
+    },
+    
+    {
+        "qus":"What is driving [the budget problem]?",
+        "res":"Revenue model as we are in our initial phase."
+    }
+]

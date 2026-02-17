@@ -1,0 +1,11 @@
+[
+    {
+        "question":"What is an MVP?",
+        "ans":["A Minimum Viable Product is the simplest version of a product that still works and solves a core problem, allowing for testing and user feedback before building the full version.","For example, skateboards are built as MVPs for formula racing cars."]
+    },
+
+     {
+        "question":"Why do we need to create MVPs?",
+        "ans":["An MVP is like a test to see if your idea is good before you spend a lot of time and resources on it. This is to identify the 'must-have' features.","It helps the entrepreneur get feedback from people to decide what to do next and build a better, complete product."]
+    }
+]

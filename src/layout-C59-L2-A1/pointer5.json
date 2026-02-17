@@ -1,0 +1,17 @@
+[
+    {
+        "questions":"What is a sales pitch?",
+        "answers":"A sales pitch is a narrative that a company creates about its product to convince customers to purchase it.",
+        "pointers":[
+        ],
+        "img":"/C59Images/SalesPitch.jpg"
+    },
+
+     {
+        "questions":"Do you remember the LOCK framework from our previous classes? What do you recall?",
+        "answers":"LOCK framework stands for:",
+        "pointers":["LEAD","OBSTACLE","CONSEQUENCE","KNOCKOUT"]
+        ,
+        "img":"/C59Images/Framework.jpeg"
+    }
+]

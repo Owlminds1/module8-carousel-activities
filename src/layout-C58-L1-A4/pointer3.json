@@ -1,0 +1,43 @@
+[
+     {
+        "Question":"We want to use 100% recycled material to make the product line from now on.",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"ideation",
+          "img":"/C58Images/Recycled_toys.jpeg"
+    },
+
+     {
+        "Question":"Making toys from plastic may be cheaper and faster, but it all ends up in our oceans!",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"clarification",
+        "img":"/C58Images/Plastic.jpeg"
+    },
+    
+    {
+        "Question":"Following the example of the “green toys” company, we can create a prototype  from recycled milk cartons.",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"development",
+     "img":"/C58Images/Milk_Cartons.jpeg"
+    },
+    
+    {
+        "Question":"We are planning to go completely eco-friendly and sustainable by 2030.",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"implementation",
+      "img":"/C58Images/Ecofriendly.jpeg"
+    },
+    
+    {
+        "Question":"We love playing with bricks, but we don’t want our children to have issues because of the microplastics used in those models.",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"clarification",
+        "img":"/C58Images/Microplastics.jpg"
+    },
+    
+    {
+        "Question":"We want children to play with toys that are healthy and safe so we are going to add a series of LEGO bricks made from biodegradable materials.",
+        "Answers":["clarification","ideation","development","implementation"],
+        "val":"ideation",
+        "img":"/C58Images/Wooden_toys.jpeg"
+    }
+]

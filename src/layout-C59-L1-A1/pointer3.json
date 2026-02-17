@@ -1,0 +1,39 @@
+[
+    {
+        "question":"What are you selling?",
+        "answer":"Lemonade."
+    },
+     {
+        "question":"Why are you selling?",
+        "answer":"To make some money at the school fair."
+    },
+
+     {
+        "question":"Who will buy it?",
+        "answer":"Students at the school."
+    },
+
+     {
+        "question":"How much will it cost?",
+        "answer":"$3 per glass."
+    },
+
+     {
+        "question":"Where will you sell it?",
+        "answer":"At the school fair."
+    },
+    
+    {
+        "question":"How much of it will you sell?",
+        "answer":"If 50 students purchase the lemonade, then you will have to make 50 glasses (i.e. roughly 10 litres)."
+    },
+
+     {
+        "question":"How much money will you spend?",
+        "answer":"Around $5 dollars to buy 50 lemons."
+    },
+     {
+        "question":"How much money will you make?",
+        "answer":"If you sell it for $3, apart from the preparation time and the glasses, you will make at least $1 profit on each item sold."
+    }
+]

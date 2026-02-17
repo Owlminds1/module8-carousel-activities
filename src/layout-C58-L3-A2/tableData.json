@@ -1,0 +1,68 @@
+[
+    {
+        "category":"Problem",
+        "text":"What problem is being solved",
+        "val":["How can we improve school efficiency through a platform for smarter learning and school management?"]
+    },
+
+     {
+        "category":"User Experience",
+        "text":"How the user interacts with the interface",
+        "val":["What kind of interface would ensure smooth and efficient delivery, access, and support for the school teachers and learners alike?"]
+    },
+
+
+     {
+        "category":"Product Design",
+        "text":"Design and features of the product",
+        "val":["What sort of features can we design to craft exceptional educational experiences, customise learning kits, and enable community participation?"]
+    },
+
+
+     {
+        "category":"Customer Service",
+        "text":"How the customer interacts with the company staff",
+        "val":["How can we train our experts to assist and guide users across the board?"]
+    },
+
+
+     {
+        "category":"Communication",
+        "text":"How the customers discovers or shares information about the company or the product",
+        "val":["What kind of user experiences and features should we highlight to ensure that customers who want our solutions are able to notice us?"]
+    },
+
+
+     {
+        "category":"Pricing",
+        "text":"How the price is set for each product or service",
+        "val":["How can we design the price range so it suits all levels of schools for various socio-economic backgrounds?"]
+    },
+
+
+     {
+        "category":"Durability",
+        "text":"How lasting the product can be",
+        "val":["In what ways can we ensure that a maximum of our customers are retained to use your platform and services on a regular basis?"]
+    },
+
+     {
+        "category":"Customers",
+        "text":"The kind of customers being served",
+        "val":["Who are our customers?","What are their professions?","What are their needs?","How can we make their lives better?"]
+    },
+
+
+     {
+        "category":"Market",
+        "text":"The kind of customers being served",
+        "val":["Where are our customers?","What is lacking in the market segment?","How are we fulfilling the need better than others?","Who are our competitors?"]
+    },
+
+
+     {
+        "category":"Difference",
+        "text":"The way the product is making a difference in the customers’ lives",
+        "val":["In what ways have we transformed the lives of our customers for a better future for educational experiences for all?"]
+    }
+]

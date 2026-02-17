@@ -1,0 +1,93 @@
+[
+  {
+    "id": "adobe",
+    "logos": [
+      {
+        "image": "/C59Images/adobe_logo.png",
+        "title": "New"
+      },
+      {
+        "image": "/C59Images/adobe_logo_old.png",
+        "title": "Old"
+      }
+    ]
+  },
+  {
+    "id": "crocs",
+    "logos": [
+      {
+        "image": "/C59Images/Crocs_old.png",
+        "title": "Old"
+      },
+      {
+        "image": "/C59Images/Crocs.png",
+        "title": "New"
+      }
+    ]
+  },
+  {
+    "id": "amazon",
+    "logos": [
+      {
+        "image": "/C59Images/Amazon-Logo-1995.png",
+        "title": "Old"
+      },
+      {
+        "image": "/C59Images/amazon_logo.png",
+        "title": "New"
+      }
+    ]
+  },
+  {
+    "id": "lego",
+    "logos": [
+      {
+        "image": "/C59Images/LEGO_logo.png",
+        "title": "New"
+      },
+      {
+        "image": "/C59Images/Lego_old.jpeg",
+        "title": "Old"
+      }
+    ]
+  },
+  {
+    "id": "apple",
+    "logos": [
+      {
+        "image": "/C59Images/apple_logo.jpg",
+        "title": "New"
+      },
+      {
+        "image": "/C59Images/apple_logo_old.jpg",
+        "title": "Old"
+      }
+    ]
+  },
+  {
+    "id": "starbucks",
+    "logos": [
+      {
+        "image": "/C59Images/Starbucks_old.jpeg",
+        "title": "Old"
+      },
+      {
+        "image": "/C59Images/starbucks.png",
+        "title": "New"
+      }
+    ]
+  },
+  {
+    "id": "nike",
+    "logos": [
+      {
+        "image": "/C59Images/Nike_logo.png",
+        "title": "New"
+      },
+      {
+        "image": "/C59Images/nike_logo_old.png",
+        "title": "Old"
+      }
+    ]
+  }
+]

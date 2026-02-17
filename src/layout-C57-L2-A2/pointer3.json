@@ -1,0 +1,35 @@
+[
+    {
+        "question": "What products fit in the same category?",
+        "we_are": "Spoons for Kids",
+        "we_want": " Plates? Forks? Milk Bottle? Reusable Napkins?"
+    },
+    {
+        "question": "What are the cost implications?",
+        "we_are": "Each spoon costs $6.60 to make and is sold for $15. So each spoon makes a profit.",
+        "we_want": "The pricing structure can remain the same as the spoon for the first $5000 in sales i.e. double the cost to sell the item. Then the pricing structure can be modified based on customers’ response and the market status.",
+        "went_point": []
+    },
+    {
+        "question": "What obstacles you’d face (funding, expansion, storage)?",
+        "we_are": "Investor funding has allowed BabyStoon to expand triple in size.",
+        "we_want": "Keep the company small so the product quality remains intact. ",
+        "went_point": []
+    },
+    {
+        "question": "What obstacles you’d face (funding, expansion, storage)?",
+        "we_are": "Investor funding has allowed BabyStoon to expand triple in size.",
+        "we_want": "Keep the company small so the product quality remains intact. ",
+        "went_point": [
+            "Do not want to become a corporation affecting the materials used to build the product. So storage is going to be okay.",
+            "But this means we would have to find investors who are willing to be okay with our values.",
+            "If we don’t have an investor who wants to try small businesses like ours, the pricing structure can be modified to only make on-demand products with shipping & handling set accordingly."
+        ]
+    },
+    {
+        "question": "How much money can be made with this product?",
+        "we_are": "Spoons make an average annual revenue of $1,500,000 with 10% profit margin.",
+        "we_want": " Keep the same goal of an average annual revenue of $1,500,000 with 10% profit margin in 7 years time. ",
+        "went_point": []
+    }
+]

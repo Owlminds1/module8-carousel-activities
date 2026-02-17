@@ -1,0 +1,49 @@
+[
+    {
+        "text":"I don’t think I can create a product all by myself!",
+        "suggestion":"I will definitely try to create a product all by myself!",
+        "ans":"BUSTER"
+    },
+    
+    
+    {
+        "text":"My friends are better at doing things independently than I am.",
+        "suggestion":"I am still learning to do things independently and can definitely learn from my friends who are really good at it!",
+        "ans":"BUSTER"
+    },
+    
+    
+    {
+        "text":"I am a self-starter and self-motivated so I think I can do it!",
+        "suggestion":"",
+        "ans":"BOOSTER"
+    },
+    
+    
+    {
+        "text":"I think I can win the match!",
+        "suggestion":"",
+        "ans":"BOOSTER"
+    },
+    
+    
+    {
+        "text":"I don’t sing as well as my fellow peer. I am okay but she is great.",
+        "suggestion":"I like to sing and can definitely get better at it. I am sure I will be able to sing like my peer who is really good at it too.",
+        "ans":"BUSTER"
+    } ,
+    
+    
+    {
+        "text":"Math is not my strong suit.",
+        "suggestion":"I can always improve my skills in Math.",
+        "ans":"BUSTER"
+    },
+    
+    
+    {
+        "text":"I am really good at Math.",
+        "suggestion":"",
+        "ans":"BOOSTER"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "image":"/C59Images/School_events.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"WORD OF MOUTH"
+    },
+
+
+     {
+        "image":"/C59Images/QR.png",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"PRINT ADS"
+    },
+    
+    {
+        "image":"/C59Images/Reebok_Flashmob.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"GUERILLA MARKETING"
+    },
+
+
+    {
+        "image":"/C59Images/Product_Placement2.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"PRODUCT PLACEMENT"
+    },
+
+
+    {
+        "image":"/C59Images/Pop_Up_Events.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"GUERILLA MARKETING"
+    },
+    
+    
+    {
+        "image":"/C59Images/Flyer.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"PRINT ADS"
+    },
+    
+    
+    {
+        "image":"/C59Images/Retail.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"LIFESTYLE MARKETING"
+    },
+
+
+      {
+        "image":"/C59Images/Adidas.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"GUERILLA MARKETING"
+    } ,
+    
+    
+    {
+        "image":"/C59Images/Birthday_Party.jpeg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"WORD OF MOUTH"
+    },
+    
+    
+    {
+        "image":"/C59Images/Socials.jpg",
+        "options":[
+            "PRINT ADS","GUERILLA MARKETING","WORD OF MOUTH","LIFESTYLE MARKETING","PRODUCT PLACEMENT"
+        ],
+        "correct":"WORD OF MOUTH"
+    }
+]
