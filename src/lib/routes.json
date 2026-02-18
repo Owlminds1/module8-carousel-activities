@@ -183,6 +183,12 @@
     {
         "link": "C59-L3-A3",
         "activity": "Sales script"
+    } ,
+    
+    
+    {
+        "link": "C59-L3-A4",
+        "activity": "Sales call"
     }
     
 ]
