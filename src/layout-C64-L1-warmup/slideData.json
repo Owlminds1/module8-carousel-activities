@@ -1,0 +1,39 @@
+[
+  {
+    "Question":"Someone who can cook delicious food as well train others to do so.",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"CHEF"
+  } ,
+  
+  
+  {
+    "Question":"Someone who uses a camera to record moments of people’s lives using still images.",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"PHOTOGRAPHER"
+  },
+  
+  
+  {
+    "Question":"Someone who works in the field of science and studies everything outside of planet earth (galaxies, stars, moons, other planets).",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"ASTRONOMER"
+  },
+  
+  {
+    "Question":"Someone who knows everything about plants and does chores such as watering, sowing seeds, enriching the soil and so on.",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"GARDENER"
+  },
+  
+  {
+    "Question":"Someone who can prepare wonderful recipes of desserts such as muffins, cakes, and cookies.",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"BAKER"
+  },
+  
+  {
+    "Question":"Someone who works with computers and knows everything related to technology.",
+    "options":["ASTRONOMER","SOFTWARE ENGINEER","CHEF","PHOTOGRAPHER","GARDENER","BAKER"],
+    "answer":"SOFTWARE ENGINEER"
+  }
+]

@@ -5,13 +5,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
-import SlideData from "@/layout-C59-L3-A4/pointer.json";
-import Slide2Data from "@/layout-C59-L3-A4/pointer2.json";
-import Slide3Data from "@/layout-C59-L3-A4/pointer3.json";
-import Slide4Data from "@/layout-C59-L3-A4/pointer4.json";
-import Slide5Data from "@/layout-C59-L3-A4/pointer5.json";
 import Welldone from "@/components/wellDone";
-import MyImage from "@/components/MyImage";
+
 import Link from "next/link";
 
 const Slide = () => {
