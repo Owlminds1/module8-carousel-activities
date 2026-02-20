@@ -173,6 +173,11 @@
         "link": "C59-L3-warmup",
         "activity": "Old and New"
     },
+
+    {
+        "link": "C59-L3-A1A",
+        "activity": "Marketing"
+    },
     
     
     {
@@ -183,6 +188,18 @@
     {
         "link": "C59-L3-A3",
         "activity": "Sales script"
+    } ,
+    
+    
+    {
+        "link": "C59-L3-A4",
+        "activity": "Sales call"
+    },
+    
+    
+    {
+        "link": "C64-L1-warmup",
+        "activity": "Guess the profession"
     }
     
 ]
