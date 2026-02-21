@@ -201,5 +201,21 @@
         "link": "C64-L1-warmup",
         "activity": "Guess the profession"
     }
+    ,
+    {
+        "link": "C64-L1-A1",
+        "activity": "Gathering feedback"
+    },
+    
+    
+    {
+        "link": "C64-L1-A2",
+        "activity": "Balancing money"
+    },
+    
+    {
+        "link": "C64-L1-AA",
+        "activity": "Etiquettes"
+    }
     
 ]

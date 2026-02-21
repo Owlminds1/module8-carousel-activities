@@ -1,0 +1,53 @@
+[
+    {
+
+        "text":"This lemonade was delicious, refreshing, and full of vitamins.",
+        "img":"/C64Images/Lemonade.jpg",
+        "val":"How would you describe this lemonade?",
+        "answer":"(OPEN)"
+    },
+
+
+     {
+
+        "text":"Yes, I’d definitely let others know so they can try it too!",
+        "img":"/C64Images/Word_of_Mouth.jpg",
+        "val":"Would you recommend this lemonade to family and friends?",
+        "answer":"(CLOSE)"
+    },
+
+
+     {
+
+        "text":"Yes, I will surely purchase this lemonade when the next stall comes around.",
+        "img":"/C64Images/Purchase.jpg",
+        "val":"Would you try this lemonade another time?",
+        "answer":"(CLOSE)"
+    },
+
+
+     {
+
+        "text":"I saw an ad on a poster in the community forum.",
+        "img":"/C64Images/Poster.jpg",
+        "val":"How did you hear about this lemonade stall?",
+        "answer":"(OPEN)"
+    },
+
+     {
+
+        "text":"Yes, it is very reasonably priced.",
+        "img":"/C64Images/Price.jpg",
+        "val":"Is this lemonade affordable?",
+        "answer":"(CLOSE)"
+    },
+
+
+     {
+
+        "text":"I came to the stall to participate in the community event and since it was quite warm, I figured I’d try some lemonade!",
+        "img":"/C64Images/Stall.jpg",
+        "val":"Why did you buy this lemonade?",
+        "answer":"(CLOSE)"
+    }
+]
