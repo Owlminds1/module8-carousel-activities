@@ -52,6 +52,10 @@ const Table = () => {
           <li className="text-xl  text-black ">
             Drag and place the relevant question in the table against each
             response
+          </li> 
+          
+           <li className="text-xl  text-black ">
+           Classify the question as open-ended or close-ended
           </li>
         </ul>
       </div>

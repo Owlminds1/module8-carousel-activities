@@ -7,6 +7,8 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
 import MyImage from "@/components/MyImage";
 import SlideData from "@/layout-C57-L1-AA/pointer1.json";
+import { GrFormNext, GrFormPrevious } from "react-icons/gr";
+
 
 import Welldone from "@/components/wellDone";
 
@@ -80,11 +82,11 @@ const Slide = () => {
 
             {SlideData.map((i, index) => (
               <SwiperSlide key={index}>
-                <div className="h-140 relative rounded-lg overflow-hidden  w-full bg-[url('/C57Images/bg-star.jpg')] bg-cover bg-no-repeat bg-center  flex justify-center items-center">
+                <div className="h-140 relative cursor-move rounded-lg overflow-hidden  w-full bg-[url('/C57Images/bg-star.jpg')] bg-cover bg-no-repeat bg-center  flex justify-center items-center">
                   <div
                     onClick={handlePrev}
-                    className="absolute cursor-pointer z-10 top-0 left-0 h-full w-[10%] "
-                  ></div>
+                    className="absolute cursor-pointer flex justify-center items-center  z-10 top-0 left-0 h-full w-[10%] "
+                  ><GrFormPrevious className="text-black bg  text-3xl bg-white rounded-full border border-black"/></div>
                   <div className="h-full relative p-5 w-full gap-5 flex justify-center items-center flex-col ">
                     <h4 className="text-xl text-center font-bold w-[70%]">
                       {i.text}
@@ -107,8 +109,8 @@ const Slide = () => {
                   </div>
                   <div
                     onClick={handleNext}
-                    className={`${activeSlide > SlideData.length ? "cursor-default" : "cursor-pointer"} absolute  z-10 top-0 right-0 h-full w-[10%]`}
-                  ></div>
+                    className={`${activeSlide > SlideData.length ? "cursor-default" : "cursor-pointer"} absolute flex justify-center items-center  z-10 top-0 right-0 h-full w-[10%]`}
+                  ><GrFormNext className="text-black bg  text-3xl bg-white rounded-full border border-black"/></div>
                 </div>
               </SwiperSlide>
             ))}

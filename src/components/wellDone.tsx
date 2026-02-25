@@ -21,7 +21,7 @@ const Welldone = ({ open, setOpen }: myProps) => {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTitle></DialogTitle>
       <DialogContent>
-        <div className="min-w-[200px] w-full p-5 bg-white flex justify-center items-center flex-col ">
+        <div className="min-w-50 w-full p-5 bg-white flex justify-center items-center flex-col ">
           <Image
             src="/Well_Done.jpg"
             width={200}

@@ -10,6 +10,7 @@ import SlideData from "@/layout-C57-L1-A2/pointer1.json";
 
 import Welldone from "@/components/wellDone";
 import Table from "./table";
+import Table2 from "./table2";
 
 const Slide = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
@@ -142,6 +143,15 @@ const Slide = () => {
                   </p>
                 </div>
 
+             
+              </div>
+            </SwiperSlide>
+            
+            
+             <SwiperSlide>
+              <div className="grid grid-cols-12 gap-5 w-full">
+               
+
                 <div className="col-span-6 w-full flex justify-center items-center">
                   <MyImage path="/C57Images/mess.jpg" />
                 </div>
@@ -170,6 +180,10 @@ const Slide = () => {
   <Table/>
 </SwiperSlide>
 
+<SwiperSlide>
+  <Table2/>
+</SwiperSlide>
+
           </Swiper>
         </div>
 
@@ -186,7 +200,7 @@ const Slide = () => {
           <span
             onClick={handleNext}
             className={` ${
-              activeSlide < 2 ? "visible" : "invisible"
+              activeSlide < 4 ? "visible" : "invisible"
             }  cursor-pointer text-black text-4xl border border-black rounded-full p-3  bg-yellow-400`}
           >
             <FaArrowRight />

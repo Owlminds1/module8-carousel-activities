@@ -5,11 +5,11 @@
     "Will you be able to guess the question from the list based on the response you see? ",
     "And also tell whether the question is open-ended or close-ended?",
     "Close-ended questions invite responses in the form of a yes or a no, whereas open-ended questions invite multiple answers that contain details. Open-ended questions provide deeper learning.",
-    "For example: If the response is: The workshop was very engaging, interesting, and super fun. We identify this as an open response.",
-    "So then: What is the question?",
+    "For Example : If the response is: The workshop was very engaging, interesting, and super fun. We identify this as an open response.",
+    "So then:  What is the question?",
     "We identify the question to be an open-ended question i.e. How was the workshop?",
     "Similarly, If the response is: The workshop was engaging. We identify this as an open response. ",
-    "So then: What is the question?",
+    "So then:  What is the question?",
     "We identify the question to be a close-ended question i.e. Was the workshop engaging or boring?",
     "You will get the hang of it! Ready? Let’s go!"
 ]

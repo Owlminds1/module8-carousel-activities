@@ -1,6 +1,6 @@
 // import dropZone from "@/layout-C57-L1-A2/dropZone.json";
 import Welldone from "@/components/wellDone";
-import dragData from "@/layout-C57-L1-A2/dragData.json";
+import dragData from "@/layout-C57-L1-A2/dragData2.json";
 import { useEffect, useState } from "react";
 
 type dragType = {
@@ -8,7 +8,7 @@ type dragType = {
   val: string;
 };
 
-const Table = () => {
+const Table2 = () => {
   const [dropItems, setDropItems] = useState<{
     [key: string]: dragType[];
   }>({});
@@ -93,10 +93,13 @@ const Table = () => {
           {" "}
           Suggest a Solution{" "}
         </div>
+      
+
         <div className="col-span-4 border font-black flex justify-center items-center text-xl text-center  w-full text-black ">
-          Teacher{" "}
+          Sibling
         </div>
-        {[...Array("teacher-1", "teacher-2")].map((type, index) => (
+
+        {[...Array("Sibling-1", "Sibling-2")].map((type, index) => (
           <div
             onDragOver={(e) => {
               e.preventDefault();
@@ -117,8 +120,6 @@ const Table = () => {
               ))}
           </div>
         ))}
-
-      
       </div>
 
 
@@ -127,4 +128,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default Table2;

@@ -1,22 +1,22 @@
 [
     {
-        "Question":"What driving [insert problem].",
+        "Question":"What driving?",
         "Answer":"Then"
     },
     {
-        "Question":"What driving [insert problem to the previous question]",
+        "Question":"What driving ?",
         "Answer":"Example"
     },
     
     
     {
-        "Question":"What is driving [the distribution problem]?",
-        "Answer":"You might answer: we have more products but fewer customers. Then you can ask,"
+        "Question":"What is driving ?",
+        "Answer":" We have more products but fewer customers. Then you can ask,"
     },
     
     
     {
-        "Question":"What is driving [the supply-demand problem?]",
+        "Question":"What is driving ?",
         "Answer":"And so on."
     }
 ]
