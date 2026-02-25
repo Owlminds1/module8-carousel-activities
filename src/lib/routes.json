@@ -211,11 +211,39 @@
     {
         "link": "C64-L1-A2",
         "activity": "Balancing money"
+    }, {
+        "link": "C64-L1-A3",
+        "activity": "Business plan"
     },
     
     {
         "link": "C64-L1-AA",
         "activity": "Etiquettes"
+    },
+    
+    {
+        "link": "C64-L2-warmup",
+        "activity": "Guess the company"
+    },
+    
+    {
+        "link": "C64-L2-A1",
+        "activity": "Gap filling technique"
+    },
+
+     {
+        "link": "C64-L2-A2",
+        "activity": "Business plan"
+    },
+    
+    {
+        "link": "C64-L2-A3",
+        "activity": "Business models"
+    },
+    
+    {
+        "link": "C64-L2-A4",
+        "activity": "Marketing"
     }
     
 ]

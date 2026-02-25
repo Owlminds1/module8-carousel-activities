@@ -1,0 +1,21 @@
+[
+    {
+        "text":"Product name",
+       "des":"Here we will enter the name of the product for which we are making the business plan."
+    },
+    
+    {
+        "text":"Feature Name & Description",
+       "des":"Describe the measures or business innovations you will take. Think about what your feature does and how it works."
+    },
+    
+    {
+        "text":"Benefits",
+       "des":"Think about why your decision is exciting and makes a way to grow the business."
+    },
+    
+    {
+        "text":"What You Need",
+       "des":"Wow! You just imagined a brand new feature for the product and even created a mini business plan for it! The last slide of your business plan is called Growth Forecast."
+    }
+]

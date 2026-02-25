@@ -1,0 +1,31 @@
+[
+     {
+        "text":"Inform",
+       "des":"The ad has successfully let people know about the product of the company.",
+       "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Persuade",
+       "des":"The ad effectively shows why a company’s product or service is better than others.",
+       "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Remind",
+       "des":"The ad has a an opening and closing statement that sticks, making sure the product of the company stays in people’s minds.",
+       "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Build Trust",
+       "des":"The ad effectively communicates company’s values through branding.",
+       "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Increase Sales",
+       "des":"The ad has a clear CTA (call to action) to let people know where and how to buy the product.",
+       "list":["Excellent","Very Good","Good","Can Improve"]
+    }
+]
