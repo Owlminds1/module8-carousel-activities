@@ -244,6 +244,37 @@
     {
         "link": "C64-L2-A4",
         "activity": "Marketing"
+    },
+    
+    {
+        "link": "C64-L2-PCA",
+        "activity": "Product Pitch"
+    },
+    
+    {
+        "link": "C64-L3-A1",
+        "activity": "Time machine"
+    },
+    
+    
+    {
+        "link": "C64-L3-A2",
+        "activity": "Survey"
+    },
+     {
+        "link": "C64-L3-A3",
+        "activity": "Dynamism and Business models"
+    },
+    
+    
+    {
+        "link": "C64-L3-A4",
+        "activity": "Marketing"
+    },
+    
+    {
+        "link": "C64-L3-PCA",
+        "activity": "---"
     }
     
 ]

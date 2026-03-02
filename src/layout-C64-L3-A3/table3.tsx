@@ -1,19 +1,21 @@
 "use client";
 
-const Table2 = () => {
+const Table3 = () => {
   return (
     <div className="flex flex-col gap-12 justify-center items-center ">
     <div className={`  gap-1 w-full grid grid-cols-12 `}>
+
+      <div className="col-span-12 text-xl font-bold text-center my-3">Let’s record your presentation (up to 3 minutes)! I will evaluate you based on the following criteria.</div>
           <div className="col-span-3 w-full text-2xl font-bold border text-black p-2 "></div>
 
-          <div className="col-span-3 w-full text-2xl font-bold border text-black p-2 ">
+          <div className="col-span-3 text-center w-full text-2xl font-bold border text-black p-2 ">
             1-3
           </div>
-          <div className="col-span-3 w-full text-2xl font-bold border text-black p-2 ">
+          <div className="col-span-3 text-center w-full text-2xl font-bold border text-black p-2 ">
             4-6
           </div>
 
-          <div className="col-span-3 w-full text-2xl font-bold border text-black p-2 ">
+          <div className="col-span-3 text-center w-full text-2xl font-bold border text-black p-2 ">
             7-10
           </div>
 
@@ -118,4 +120,4 @@ The student somewhat made eye contact with the instructor
   );
 };
 
-export default Table2;
+export default Table3;
