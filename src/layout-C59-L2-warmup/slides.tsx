@@ -16,59 +16,56 @@ const Slide = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
   const enterCountRef = useRef(0);
 
-
   const [activeSlide, setActiveSlide] = useState(0);
   const [visibleStep, setVisibleStep] = useState(1); // 1 = question, 2 = answer
   const [open, setOpen] = useState(false);
 
   // ⌨️ ENTER KEY LOGIC
-useEffect(() => {
-  const handleKeyPress = (e: KeyboardEvent) => {
-    if (e.key !== "Enter") return;
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      if (e.key !== "Enter") return;
 
-    // count enter presses
-    enterCountRef.current += 1;
+      // 🚫 Prevent holding Enter key
+      if (e.repeat) return;
 
-    // first enter → show answer
-    if (visibleStep < 2) {
-      setVisibleStep(2);
-      return;
-    }
+      // ✅ If last slide → open modal
 
-    // second enter on LAST slide → open modal
-    if (
-      visibleStep === 2 &&
-      activeSlide === SlideData.length - 1 &&
-      enterCountRef.current >= 2
-    ) {
-      setOpen(true);
-    }
-  };
+      // Otherwise show answer
+      if (visibleStep < 2) {
+        setVisibleStep(2);
+      }
+    };
 
-  window.addEventListener("keydown", handleKeyPress);
-  return () => window.removeEventListener("keydown", handleKeyPress);
-}, [activeSlide, visibleStep]);
-
-
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [activeSlide, visibleStep]);
 
   // 🔄 SLIDE CHANGE
   const handleSlideChange = (swiper: SwiperClass) => {
     setActiveSlide(swiper.activeIndex);
     setVisibleStep(1); // reset on new slide
- enterCountRef.current = 0;
-   
   };
 
+
+
+  useEffect(()=>{
+if (activeSlide === SlideData.length - 1 && visibleStep === 2) {
+     
+  setTimeout(()=>{
+    setOpen(true);
+        return;
+  },3000)
+    }
+  },[visibleStep])
   const handlePrev = () => swiperRef.current?.slidePrev();
   const handleNext = () => swiperRef.current?.slideNext();
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col items-center justify-center p-5 gap-6">
-      
       {/* HEADER */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-black">
-        GUESS THE COMPANY OR THE PRODUCT
+          GUESS THE COMPANY OR THE PRODUCT
         </h2>
         {/* <p className="text-lg mt-2 text-gray-700">
           Look at the image, read the tagline, and guess!
@@ -77,61 +74,52 @@ useEffect(() => {
 
       {/* SLIDER */}
       <div className="w-[90%]  p-4">
+        <div className="w-full shadow-md p-3 min-h-30 bg-white">
+          <Swiper
+            slidesPerView={1}
+            allowTouchMove={false}
+            autoHeight
+            modules={[Navigation]}
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            onSlideChange={handleSlideChange}
+          >
+            {SlideData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="grid grid-cols-12 gap-8 items-center p-4">
+                  {/* LEFT IMAGE */}
+                  <div className="col-span-6 flex justify-center">
+                    {visibleStep >= 1 && <MyImage path={item.image} />}
+                  </div>
 
-          <div className="w-full shadow-md p-3 min-h-30 bg-white">
+                  {/* RIGHT CONTENT */}
+                  <div className="col-span-6 flex flex-col gap-4">
+                    {/* QUESTION */}
+                    {visibleStep >= 1 && (
+                      <h3 className="text-3xl font-bold animate_fadeInUp">
+                        {item.text}
+                      </h3>
+                    )}
 
-         
-        <Swiper
-          slidesPerView={1}
-          allowTouchMove={false}
-          autoHeight
-          modules={[Navigation]}
-          onSwiper={(swiper) => (swiperRef.current = swiper)}
-          onSlideChange={handleSlideChange}
-        >
-          {SlideData.map((item, index) => (
-            <SwiperSlide key={index}>
-              <div className="grid grid-cols-12 gap-8 items-center p-4">
-
-                {/* LEFT IMAGE */}
-                <div className="col-span-6 flex justify-center">
-                  {visibleStep >= 1 && (
-                    <MyImage path={item.image} />
-                  )}
-                </div>
-
-                {/* RIGHT CONTENT */}
-                <div className="col-span-6 flex flex-col gap-4">
-
-                  {/* QUESTION */}
-                  {visibleStep >= 1 && (
-                    <h3 className="text-3xl font-bold animate_fadeInUp">
-                      {item.text}
-                    </h3>
-                  )}
-
-                  {/* ANSWER */}
-                  {visibleStep >= 2 && (
-                    <h3 className="text-2xl font-bold text-violet-900 animate_fadeInUp">
-                      {item.answer}
-                    </h3>
-                  )}
+                    {/* ANSWER */}
+                    {visibleStep >= 2 && (
+                      <h3 className="text-2xl font-bold text-violet-900 animate_fadeInUp">
+                        {item.answer}
+                      </h3>
+                    )}
 
                     {/* ENTER HINT */}
-                {visibleStep < 2 && (
-                  <div className="col-span-12 text-left italic text-gray-500 mt-4">
-                    (Press Enter to show answer)
+                    {visibleStep < 2 && (
+                      <div className="col-span-12 text-left italic text-gray-500 mt-4">
+                        (Press Enter to show answer)
+                      </div>
+                    )}
                   </div>
-                )}
                 </div>
-
-              
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
- </div>
-         <div className="flex justify-between items-center gap-5 w-full mt-8  ">
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+        <div className="flex justify-between items-center gap-5 w-full mt-8  ">
           <span
             onClick={handlePrev}
             className={`${
@@ -149,12 +137,9 @@ useEffect(() => {
             <FaArrowRight />
           </span>
         </div>
-
-        
       </div>
 
       {/* NAV BUTTONS */}
-     
 
       {/* WELL DONE MODAL */}
       <Welldone open={open} setOpen={setOpen} />

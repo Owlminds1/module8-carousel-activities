@@ -4,11 +4,13 @@
     "logos": [
       {
         "image": "/C59Images/adobe_logo.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/adobe_logo_old.png",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -17,11 +19,13 @@
     "logos": [
       {
         "image": "/C59Images/Crocs_old.png",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/Crocs.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -30,11 +34,13 @@
     "logos": [
       {
         "image": "/C59Images/Amazon-Logo-1995.png",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/amazon_logo.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -43,11 +49,13 @@
     "logos": [
       {
         "image": "/C59Images/LEGO_logo.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/Lego_old.jpeg",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -56,11 +64,13 @@
     "logos": [
       {
         "image": "/C59Images/apple_logo.jpg",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/apple_logo_old.jpg",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -69,11 +79,13 @@
     "logos": [
       {
         "image": "/C59Images/Starbucks_old.jpeg",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/starbucks.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       }
     ]
   },
@@ -82,11 +94,13 @@
     "logos": [
       {
         "image": "/C59Images/Nike_logo.png",
-        "title": "New"
+        "title": "New",
+        "opt":["Old","New"]
       },
       {
         "image": "/C59Images/nike_logo_old.png",
-        "title": "Old"
+        "title": "Old",
+        "opt":["Old","New"]
       }
     ]
   }

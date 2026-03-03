@@ -10,6 +10,7 @@ import SlideData from "@/layout-C58-L2-A2/pointer1.json";
 
 import Welldone from "@/components/wellDone";
 import Table from "./table";
+import Link from "next/link";
 
 const Slide = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
@@ -100,7 +101,7 @@ const Slide = () => {
                   <MyImage path="/C58Images/Apple.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
-                  <p className="text-black text-lg animate_fadeInUp">
+                  <p className="text-black text-xl animate_fadeInUp">
                     All companies want to be seen as innovative. All companies
                     want customer loyalty. But the truth is: very few companies
                     are able to maintain customer loyalty while constantly
@@ -119,14 +120,14 @@ const Slide = () => {
                   <MyImage path="/C58Images/Apple_Headquarters.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
-                  <p className="text-black text-lg animate_fadeInUp">
+                  <p className="text-black text-2xl animate_fadeInUp">
                     Apple rose from 8,000 employees and $7 billion in revenue in
                     1997 to 137,000 employees and $260 billion in revenue in
                     2019. Why?
                   </p>
                   <ul className="list-disc space-y-3">
                     {SlideData.slice(0, visibleCount).map((i, index) => (
-                      <li key={index} className="text-lg text-black">{i}</li>
+                      <li key={index} className="text-xl text-black">{i}</li>
                     ))}
                   </ul>
 
@@ -144,7 +145,9 @@ const Slide = () => {
              <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
                 <div className="col-span-12 w-full flex justify-center items-center ">
-                 <MyImage path=""/>
+                 {/* <MyImage path=""/> */}
+
+                 <Link href="https://www.youtube.com/watch?v=fOHj5kGU4fY ?" target="blank" className="bg-violet-900 text-white px-5 py-2 rounded-lg active:scale-95 transition-all duration-150 text-xl" >Video </Link>
                 </div>
               
               </div>

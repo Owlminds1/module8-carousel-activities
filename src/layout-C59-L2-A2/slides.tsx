@@ -71,7 +71,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef.current.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -82,7 +82,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef2.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -93,7 +93,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef3.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -104,7 +104,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef4.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -115,7 +115,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef5.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -126,7 +126,7 @@ setWrongBg(new Audio("/sound/wrong_buzzer.mp3"));
 
         scrollRef6.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
     };
@@ -172,6 +172,9 @@ const handleCheck  = (option:string,correct:string,optInd:number) => {
   setActiveBtn(optInd);
   if(option === correct){
   correctBg?.play();
+  if(activeSlide === methodData.length + 5){
+    setOpen(true)
+  }
   } else {
     wrongBg?.play();
   }
@@ -192,7 +195,7 @@ const handleCheck  = (option:string,correct:string,optInd:number) => {
                   ? "MARKETING METHODS"
                   : activeSlide === 4
                     ? "MARKETING METHODS"
-                    : "MARKETING METHODS"}
+                    : activeSlide === 5 ?"MARKETING METHODS":"Select the best possible marketing method that corresponds to each image."}
         </h4>
 
         <p className="text-xl font-medium w-[80%] text-center text-black ">

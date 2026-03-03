@@ -181,7 +181,7 @@ const Slide = () => {
                     </div>
                     <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-3 ">
                       <p className="text-xl text-black font-medium">
-                        <span className="font-bold">Inbound Sales </span>: This
+                        <span className="font-bold text-2xl">Inbound Sales </span>: This
                         is when the customer comes to you to further enquire
                         about the product with the intention to buy.
                       </p>
@@ -263,7 +263,7 @@ const Slide = () => {
                     </div>
                     <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-3 ">
                       <p className="text-xl text-black font-medium">
-                        <span className="font-bold">Outbound Sales </span>: This
+                        <span className="font-bold text-2xl">Outbound Sales </span>: This
                         is when you reach out to the customer to convince them
                         to buy your product.
                       </p>

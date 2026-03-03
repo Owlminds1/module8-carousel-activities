@@ -109,11 +109,13 @@ const Slide = () => {
   ]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (Slide3Data.length * 2 === visibleCount3) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount3]);
+  useEffect(() => {
+    if ( activeSlide === 7 ) {
+setTimeout(()=>{
+        setOpen(true);
+},3000)
+    }
+  }, [activeSlide]);
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">
@@ -234,45 +236,45 @@ const Slide = () => {
                   IPhone. Apply the details to create the product’s value
                   proposition statement.
                 </div>
-                <div className="col-span-6 border w-full flex justify-center items-start h-full p-2">
+                <div className="col-span-5 border w-full flex justify-center items-start h-full p-2">
                   <iframe
                 className="rounded-lg "
-                width="300" height="200" src="https://www.youtube.com/embed/q8d9uuO1Cf4?si=AwdWGks6MeG6D9ly" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                width="400" height="450" src="https://www.youtube.com/embed/q8d9uuO1Cf4?si=AwdWGks6MeG6D9ly" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
-                <div className="col-span-6 border w-full flex flex-col justify-start gap-5 items-center h-full p-3">
+                <div className="col-span-7 border w-full flex flex-col justify-start gap-5 items-center h-full p-3">
                   <MyImage path="/C59Images/IPhone.jpg" width={280} />
 
                   <p className="text-black text-xl leading-relaxed">
                     For (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) dissatisfied with (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) due to (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ), (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) offers (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) that provides (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     )
                   </p>
@@ -332,45 +334,45 @@ const Slide = () => {
                   to read about the product and then fill out the same statement
                   as in the previous slide.
                 </div>
-                 <div className="col-span-6 border w-full flex justify-center items-start h-full p-2">
+                 <div className="col-span-5 border w-full flex justify-center items-start h-full p-2">
                   <iframe
                 className="rounded-lg "
-                width="300" height="200" src="https://www.youtube.com/embed/q8d9uuO1Cf4?si=AwdWGks6MeG6D9ly" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                width="400" height="450" src="https://www.youtube.com/embed/q8d9uuO1Cf4?si=AwdWGks6MeG6D9ly" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
-                <div className="col-span-6 border w-full flex flex-col justify-start gap-8 items-center h-full p-3">
+                <div className="col-span-7 border w-full flex flex-col justify-start gap-8 items-center h-full p-3">
                   <MyImage path="/C59Images/AppleWatch.jpeg" width={280} />
 
                   <p className="text-black text-xl leading-relaxed">
                     For (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) dissatisfied with (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) due to (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ), (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) offers (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     ) that provides (
-                    <input
+                    <textarea
                       placeholder="write here..."
-                      className="text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
+                      className="h-9 leading-6 text-red-500 placeholder:text-gray-600 border-b border-red-500 outline-0 px-2 text-center"
                     />
                     )
                   </p>

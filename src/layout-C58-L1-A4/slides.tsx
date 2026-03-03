@@ -77,6 +77,10 @@ const Slide = () => {
     if (select === val) {
       bgCorrect?.play();
 
+      if (SlideData2.length -1 === activeSlide){
+        setOpen(true)
+
+      }
       if (SlideData2.length + 1 === activeSlide) {
         setOpen(true);
       }
@@ -116,11 +120,11 @@ const Slide = () => {
           >
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
-                <div className="col-span-6 w-full flex justify-center items-center ">
-                  <MyImage path="/C58Images/DesigThinkingProcess.png" />
+                <div className="col-span-8 w-full flex justify-center items-center ">
+                  <MyImage width={800} path="/C58Images/DesigThinkingProcess.png" />
                 </div>
-                <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-8 ">
-                  <p className=" text-lg w-full">
+                <div className=" col-span-4 w-full flex justify-center items-center flex-col gap-8 ">
+                  <p className=" text-2xl w-full">
                     We ask questions not only to develop products, but also to
                     further improve its design as well as functionality. To do
                     so, we have to:
@@ -128,7 +132,7 @@ const Slide = () => {
                   <ul className="list-disc w-full space-y-3 px-2">
                     {SlideData.slice(0, visibleCount).map((item, index) => (
                       <li
-                        className="text-black text-lg animate_fadeInUp"
+                        className="text-black text-xl animate_fadeInUp"
                         key={index}
                       >
                         <span className="font-bold">{item.heading} : </span>
@@ -153,8 +157,8 @@ const Slide = () => {
                   <MyImage path="/C58Images/Legos.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-8 ">
-                  <p className=" text-lg w-full">
-                    Now here’s a situation: Let’s say that the LEGO company
+                  <p className=" text-2xl w-full">
+                    Now here’s a situation: <br /> Let’s say that the LEGO company
                     decided to go plastic-free because the material is not good
                     for the environment. This to ensure eco-friendly products as
                     well as happy customers. Here are a series of statements

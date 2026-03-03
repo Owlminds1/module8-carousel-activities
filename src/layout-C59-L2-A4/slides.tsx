@@ -18,7 +18,6 @@ const Slide = () => {
   const scrollRef2 = useRef<HTMLDivElement>(null);
   const scrollRef3 = useRef<HTMLDivElement>(null);
 
-  const scrollRef5 = useRef<HTMLDivElement>(null);
 
   const [open, setOpen] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
@@ -90,11 +89,13 @@ const Slide = () => {
   }, [visibleCount, visibleCount2, visibleCount3, activeSlide]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (Slide3Data.length * 2 === visibleCount3) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount3]);
+  useEffect(() => {
+    if (activeSlide === 3) {
+     setTimeout(()=>{
+ setOpen(true);
+     },3000)
+    }
+  }, [activeSlide]);
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">

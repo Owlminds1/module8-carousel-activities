@@ -85,7 +85,7 @@ const Slide = () => {
                     <div className="mb-5 break-inside-avoid w-80 h-50 relative ">
                       <MyImage
                         fill
-                        path="/C58Images/Active_App_design.png"
+                        path="/C58Images/Active_App_design.PNG"
                         className="w-full rounded-lg"
                       />
                     </div>
@@ -93,7 +93,7 @@ const Slide = () => {
                     <div className="mb-5 break-inside-avoid w-80 h-50 relative">
                       <MyImage
                         fill={true}
-                        path="/C58Images/Active_App_Dashboard.jpg"
+                        path="/C58Images/Active_App_Dashboard.JPG"
                         className="w-full rounded-lg"
                       />
                     </div>
@@ -101,7 +101,7 @@ const Slide = () => {
                     <div className="mb-5 break-inside-avoid w-80 h-50 relative">
                       <MyImage
                         fill
-                        path="/C58Images/Active_App_Interface.jpg"
+                        path="/C58Images/Active_App_Interface.JPG"
                         className="w-full rounded-lg"
                       />
                     </div>
@@ -109,7 +109,7 @@ const Slide = () => {
                     <div className="mb-5 break-inside-avoid w-80 h-50 relative">
                       <MyImage
                         fill
-                        path="/C58Images/Active_App.png"
+                        path="/C58Images/Active_App.PNG"
                         className="w-full rounded-lg"
                       />
                     </div>
@@ -148,11 +148,11 @@ const Slide = () => {
                 </div>
 
                 <div className="col-span-12 gap-0.5 grid  grid-cols-12 w-[90%]">
-                  <div className="col-span-6 w-full bg-violet-900 text-white p-1 text-center text-xl">
+                  <div className="col-span-6  font-bold w-full bg-violet-900 text-white p-1 text-center text-xl">
                     CATEGORY
                   </div>
 
-                  <div className="col-span-6 w-full bg-violet-900 text-white p-1 text-center text-xl">
+                  <div className="col-span-6  font-bold w-full bg-violet-900 text-white p-1 text-center text-xl">
                     FEEDBACK
                   </div>
                   <div className="col-span-6 w-full border text-black p-2 text-center text-xl">
@@ -197,51 +197,51 @@ const Slide = () => {
               <div className="flex flex-col gap-8">
                 <div className="grid grid-cols-10 w-full gap-y-3 place-items-center p-2">
                   <div className="col-span-2 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       GOAL
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       (what is the objective of the user?)
                     </h4>
                   </div>
 
                   <div className="col-span-2 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       {" "}
                       BROWSE
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       (what all steps will the user take to find information?)
                     </h4>
                   </div>
 
                   <div className="col-span-2 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       SELECT
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       (what all categories will the user choose to attend the
                       tournament?)
                     </h4>
                   </div>
 
                   <div className="col-span-2 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       ADD
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       (what will the user add to finalise attendance at the
                       tournament?)
                     </h4>
                   </div>
 
                   <div className="col-span-2 min-h-30 w-full   text-center">
-                    <h3 className="text-white font-bold p-1 bg-violet-900 ">
+                    <h3 className="text-white font-bold p-1 bg-violet-900 text-xl ">
                       {" "}
                       CONFIRM
                     </h3>
 
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       (what kind of confirmations will the user get to go to the
                       tournament?)
                     </h4>
@@ -287,7 +287,7 @@ const Slide = () => {
                   <div className="w-full text-center">
                     <button
                       onClick={() => setShowSuggestion(true)}
-                      className="px-5 py-2 bg-violet-900  text-white rounded-lg cursor-pointer"
+                      className="px-5 py-2 text-xl bg-violet-900  text-white rounded-lg cursor-pointer"
                     >
                       Suggestive Response
                     </button>
@@ -301,7 +301,7 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         GOAL
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what is the objective of the user?)
                       </h4>
                     </div>
@@ -311,7 +311,7 @@ const Slide = () => {
                         {" "}
                         BROWSE
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what all steps will the user take to find information?)
                       </h4>
                     </div>
@@ -320,7 +320,7 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         SELECT
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what all categories will the user choose to attend the
                         tournament?)
                       </h4>
@@ -330,19 +330,19 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         ADD
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what will the user add to finalise attendance at the
                         tournament?)
                       </h4>
                     </div>
 
                     <div className="col-span-2 min-h-30 w-full   text-center">
-                      <h3 className="text-white font-bold p-1 bg-violet-900 ">
+                      <h3 className="text-white font-bold p-1 bg-violet-900 text-xl ">
                         {" "}
                         CONFIRM
                       </h3>
 
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what kind of confirmations will the user get to go to
                         the tournament?)
                       </h4>
@@ -406,28 +406,28 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-4 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       CATEGORY
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className=" text-orange-600 text-xl font-bold min-h-20 flex justify-center items-center">
                       (different facets of the app)
                     </h4>
                   </div>
 
                   <div className="col-span-4 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       FEEDBACK
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-orange-600 text-xl font-bold min-h-20 flex justify-center items-center">
                       (what the users have to say about the app)
                     </h4>
                   </div>
 
                   <div className="col-span-4 min-h-30 w-full  text-center">
-                    <h3 className="bg-violet-900 text-white p-1 font-bold">
+                    <h3 className="bg-violet-900 text-xl text-white p-1 font-bold">
                       MODIFICATIONS
                     </h3>
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-orange-600 text-xl font-bold min-h-20 flex justify-center items-center">
                       (what and how will you modify based on the feedback?)
                     </h4>
                   </div>
@@ -439,7 +439,7 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-4  w-full   text-center">
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       The app is easy to use but the information can be better
                       organised
                     </h4>
@@ -459,7 +459,7 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-4  w-full   text-center">
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       It can be more elegant in its look and feel
                     </h4>
                   </div>
@@ -478,7 +478,7 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-4  w-full   text-center">
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       The response time for any edits or information can be
                       quicker
                     </h4>
@@ -498,7 +498,7 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-4  w-full   text-center">
-                    <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                    <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                       It would be nice to integrate fitness related blogs on it
                       too and a way to chat with users who are online on the app
                     </h4>
@@ -516,7 +516,7 @@ const Slide = () => {
                   <div className="w-full text-center">
                     <button
                       onClick={() => setShowSuggestion2(true)}
-                      className="px-5 py-2 bg-violet-900  text-white rounded-lg cursor-pointer"
+                      className="px-5 py-2 text-xl bg-violet-900  text-white rounded-lg cursor-pointer"
                     >
                       Suggestive Response
                     </button>
@@ -530,7 +530,7 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         CATEGORY
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (different facets of the app)
                       </h4>
                     </div>
@@ -539,7 +539,7 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         FEEDBACK
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what the users have to say about the app)
                       </h4>
                     </div>
@@ -548,7 +548,7 @@ const Slide = () => {
                       <h3 className="bg-violet-900 text-white p-1 font-bold">
                         MODIFICATIONS
                       </h3>
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         (what and how will you modify based on the feedback?)
                       </h4>
                     </div>
@@ -560,7 +560,7 @@ const Slide = () => {
                     </div>
 
                     <div className="col-span-4  w-full   text-center">
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         The app is easy to use but the information can be better
                         organised
                       </h4>
@@ -583,7 +583,7 @@ const Slide = () => {
                     </div>
 
                     <div className="col-span-4  w-full   text-center">
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         It can be more elegant in its look and feel
                       </h4>
                     </div>
@@ -601,7 +601,7 @@ const Slide = () => {
                     </div>
 
                     <div className="col-span-4  w-full   text-center">
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         The response time for any edits or information can be
                         quicker
                       </h4>
@@ -620,7 +620,7 @@ const Slide = () => {
                     </div>
 
                     <div className="col-span-4  w-full   text-center">
-                      <h4 className="text-black font-medium text-lg min-h-20 flex justify-center items-center">
+                      <h4 className="text-black font-medium text-xl min-h-20 flex justify-center items-center">
                         It would be nice to integrate fitness related blogs on
                         it too and a way to chat with users who are online on
                         the app

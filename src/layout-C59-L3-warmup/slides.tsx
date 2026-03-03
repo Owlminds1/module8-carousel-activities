@@ -19,20 +19,37 @@ const Slide = () => {
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(false);
   const [shuffle,setShuffle] =useState(SlideData)
+  const [activeBtn,setActiveBtn]=useState<{[key:number]:number} >({})
+  const [correctBg,setCorrectBg]=useState<HTMLAudioElement>()
 
+
+    useEffect(()=>{
+    setCorrectBg(()=> new Audio("/sound/correct.mp3"))
+setShuffle((prev)=> [...prev].sort(()=> Math.random() - 0.5))
+  },[])
   // 🔄 SLIDE CHANGE
   const handleSlideChange = (swiper: SwiperClass) => {
     setActiveSlide(swiper.activeIndex);
     setShow(false);
+    setActiveBtn({})
   };
 
   const handlePrev = () => swiperRef.current?.slidePrev();
   const handleNext = () => swiperRef.current?.slideNext();
 
+const handleCheck = (val:string,correct:string,col:number,index:number)=>{
+ setActiveBtn((prev) => ({
+    ...prev,
+    [col]: index,
+  }));
 
-  useEffect(()=>{
-setShuffle((prev)=> [...prev].sort(()=> Math.random() - 0.5))
-  },[])
+  if(val === correct){
+  correctBg?.play()
+  }
+}
+
+
+
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col items-center justify-center p-5 gap-6">
       {/* HEADER */}
@@ -40,9 +57,10 @@ setShuffle((prev)=> [...prev].sort(()=> Math.random() - 0.5))
         <h2 className="text-3xl font-bold text-black">
       Old and New
         </h2>
-        {/* <p className="text-lg mt-2 text-gray-700">
-          Look at the image, read the tagline, and guess!
-        </p> */}
+        <p className="text-lg mt-2 text-gray-700">
+          You will see two logos of the same brand.
+Guess which logo is old and which is new.
+        </p>
       </div>
 
       {/* SLIDER */}
@@ -60,14 +78,27 @@ setShuffle((prev)=> [...prev].sort(()=> Math.random() - 0.5))
               <SwiperSlide key={item.id}>
                 <div className="grid grid-cols-12 gap-15 items-center p-4">
                   {/* LEFT IMAGE */}
-                  <div className="col-span-12 flex justify-center items-center gap-8 w-full">
-                    {item.logos.map((i) => (
+                  <div className="col-span-12 flex justify-center items-center gap-15 w-full">
+                    {item.logos.map((i,logoIndex) => (
+                      <div  key={i.image} className="min-h-90 flex flex-col items-center justify-between">
+
                       <MyImage
-                        key={i.image}
+                       
                         path={i.image}
-                        width={200}
+                        width={300}
                         className="border"
-                      />
+                        />
+
+                        <div className="flex justify-around w-full items-center ">
+                          {
+                            i.opt.map((btn,btnIndx)=>(
+                              <button key={btnIndx}
+                              onClick={()=>handleCheck(btn,i.title,logoIndex,btnIndx )}
+                              className={`${activeBtn[logoIndex] === btnIndx ? btn === i.title?"bg-green-500" :"bg-red-500 shake" :"bg-violet-900"} rounded-lg text-xl text-white cursor-pointer  px-5 py-2 w-1/3`}> {btn}</button>
+                            ))
+                          }
+                        </div>
+                        </div>
                     ))}
                   </div>
                   <div className="col-span-12  p-3 flex justify-center w-full">
