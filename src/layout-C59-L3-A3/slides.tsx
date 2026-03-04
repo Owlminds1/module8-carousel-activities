@@ -203,6 +203,25 @@ const Slide = () => {
               ? "Fill in your pitch in the blanks."
               : ""}
         </p>
+        {
+          activeSlide === 3 &&(
+             <ul className="list-disc space-y-3 ">
+                    <li className="text-xl text-black">
+                      Let’s say that the ad you made earlier was really
+                      appreciated by many customers.
+                    </li>
+
+                    <li className="text-xl text-black">
+                      So they have come to you to enquire further about AirTag.
+                    </li>
+
+                    <li className="text-xl text-black">
+                      Your goal is to ensure that this potential customer
+                      becomes an actual customer.
+                    </li>
+                  </ul>
+          )
+        }
       </div>
 
       <div className="w-[90%] flex justify-center items-center flex-col gap-3  ">
@@ -230,7 +249,7 @@ const Slide = () => {
                     There are two kinds of sales.
                   </p>
                   <p className="text-xl text-black w-full">
-                    <span className="font-bold"> Inbound Sales : </span> This is
+                    <span className="font-bold text-2xl"> Inbound Sales : </span> This is
                     when the customer comes to you to further enquire about the
                     product with the intention to buy.
                   </p>
@@ -266,7 +285,7 @@ const Slide = () => {
                 </div>
                 <div className=" col-span-6  w-full flex justify-center items-center flex-col gap-5 ">
                   <p className="text-xl text-black w-full">
-                    <span className="font-bold"> Outbound Sales : </span> This
+                    <span className="font-bold text-2xl"> Outbound Sales : </span> This
                     is when you reach out to customers to convince them to buy
                     your product.
                   </p>
@@ -305,8 +324,8 @@ const Slide = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="grid grid-cols-12 gap-y-4 place-items-center p-2">
-                <div className="col-span-6">
+              <div className="grid grid-cols-12 gap-y-4 place-items-start p-2">
+                <div className="col-span-6 w-full flex justify-center">
                   <MyImage path="/C59Images/AIDA_Framework.png" />
                 </div>
                 <div className=" col-span-6  w-full flex justify-center items-center flex-col gap-5 ">
@@ -345,23 +364,7 @@ const Slide = () => {
 
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
-                <div className="col-span-12 w-[50%]">
-                  <ul className="list-disc space-y-3 ">
-                    <li className="text-xl text-black">
-                      Let’s say that the ad you made earlier was really
-                      appreciated by many customers.
-                    </li>
-
-                    <li className="text-xl text-black">
-                      So they have come to you to enquire further about AirTag.
-                    </li>
-
-                    <li className="text-xl text-black">
-                      Your goal is to ensure that this potential customer
-                      becomes an actual customer.
-                    </li>
-                  </ul>
-                </div>
+                
 
                 <div className=" col-span-12  w-[50%] flex justify-center items-center flex-col gap-5 ">
                   <p className="text-xl font-bold text-black w-full">
@@ -407,13 +410,7 @@ const Slide = () => {
                       INTRODUCE YOURSELF.
                     </p>
                     <div className="flex flex-col gap-3">
-                      <p className="text-xl  text-black w-full">
-                        <span className="font-bold">ATTENTION : </span>(Grab the
-                        buyer's attention immediately with a personalized
-                        comment, a question about a recent trend, or a brief
-                        statement of the company's USP and values)
-                      </p>
-
+                     
                       <p className="text-xl  text-black w-full">
                         ( Hi! My name is{" "}
                         <input
@@ -599,6 +596,7 @@ const Slide = () => {
                         <Link
                           href="https://www.apple.com/in/airtag/"
                           target="blanck"
+                          className="text-blue-500"
                         >
                           {" "}
                           Here is a resource to consult.
@@ -653,6 +651,7 @@ const Slide = () => {
                         <Link
                           href="https://www.apple.com/in/shop/buy-airtag/airtag/1-pack"
                           target="blanck"
+                          className="text-blue-500"
                         >
                           {" "}
                           Here is a resource to consult.
@@ -757,6 +756,7 @@ const Slide = () => {
                         product support. Inform about warranty as well as what's
                         not included).{" "}
                         <Link
+                        className="text-blue-500"
                           href="https://discussions.apple.com/welcome"
                           target="blank"
                         >

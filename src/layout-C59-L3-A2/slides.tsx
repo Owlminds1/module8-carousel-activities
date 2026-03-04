@@ -92,11 +92,13 @@ const Slide = () => {
   }, [visibleCount, visibleCount3, visibleCount4, visibleCount5, activeSlide]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (Slide3Data.length * 2 === visibleCount3) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount3]);
+   useEffect(() => {
+    if (activeSlide === 5 ) {
+      setTimeout(()=>{
+        setOpen(true);
+      },3000)
+    }
+  }, [activeSlide]);
 
 
 useEffect(() => {

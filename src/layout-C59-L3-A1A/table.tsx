@@ -87,7 +87,7 @@ const Table = () => {
           <div
            
             key={index}
-            className="col-span-3 h-full flex items-center justify-center flex-col  "
+            className="col-span-6 border border-black h-full flex items-center justify-center flex-col  "
           >
             <h3 className="text-lg w-full h-full text-center bg-violet-900 flex items-center justify-center text-white p-1">{type}</h3>
 

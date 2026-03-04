@@ -98,11 +98,11 @@ const Table2 = ({swiperRef}:swiperProps) => {
             onDrop={(e) => handleDrop(e, type)}
            
             key={index}
-            className="col-span-3  "
+            className="col-span-6 border border-black  "
           >
-            <h3 className="text-lg w-full min-h-20 text-center bg-violet-900 flex items-center justify-center text-white p-1">{type}</h3>
+            <h3 className="text-lg w-full text-center bg-violet-900 flex items-center justify-center text-white p-1">{type}</h3>
 
-           <div className="border min-h-130 p-2">
+           <div className="border min-h-50 p-2">
              {dropItems[type] &&
               dropItems[type].map((i, idx) => (
                 <p
