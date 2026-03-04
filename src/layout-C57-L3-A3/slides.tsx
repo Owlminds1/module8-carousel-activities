@@ -77,7 +77,7 @@ const Slide = () => {
             ? "Fill the template with each of your ideas (IDEA A/ IDEA B/ IDEA C) under the category of IDEA/PROBLEM/ACTION/RESULT/TEST. Make sure to read the definitions with examples to ensure you understand."
             : activeSlide === 1
               ? "Apply the “how, now, wow” technique to each idea to pick the best one."
-              : "Ideally, you should pick a wow idea."}
+              : "Ideally, you should pick a wow ideas."}
         </p>
       </div>
 
@@ -241,7 +241,7 @@ const Slide = () => {
 
 
                     <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
-                    <h4 className="text-xl font-bold text-black text-center w-full">Wow</h4>
+                    <h4 className="text-xl font-bold text-black text-center w-full">How</h4>
                     <p className="text-black/80 text-lg ">
                    Ideas that are easy to implement and are medium-risk, original, and innovative.
 For example, Kobee decided to add personal essentials to his fleet of natural products. But he made sure that the cost isn’t too high given the lip balms account for 75% of the sales. At the moment, the personal essentials only account for 25%. Despite the difference, he is still making profit.
@@ -264,22 +264,21 @@ For example, Kobee decided to add personal essentials to his fleet of natural pr
                     </li>
                   </ul>
                 <div className="grid grid-cols-12 w-[60%] gap-0.5">
-                  <div className="col-span-6 w-full border border-black"></div>
 
-                  <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-[#FEEF20]">
-                    <h4 className="text-xl font-bold text-black text-center w-full">WOW</h4>
+                  <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-[#FEEF20]">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea A</h4>
                     <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
 
 
-                   <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-blue-400">
-                    <h4 className="text-xl font-bold text-black text-center w-full">NOW</h4>
+                   <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-blue-400">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea B</h4>
                       <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
 
 
-                    <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
-                    <h4 className="text-xl font-bold text-black text-center w-full">Wow</h4>
+                    <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea C</h4>
                     <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
                 </div>
