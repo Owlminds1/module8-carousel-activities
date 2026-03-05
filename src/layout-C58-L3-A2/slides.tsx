@@ -119,7 +119,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C59Images/" />
+                  <MyImage path="/C58Images/Marketing.jpg" />
                 </div>
                 <div className="col-span-6 w-full">
                   <ul className="list-disc space-y-3 w-full">
@@ -145,7 +145,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C59Images/" />
+                  <MyImage path="/C58Images/Product_Market_Fit.jpg" />
                 </div>
                 <div className="col-span-6 w-full flex flex-col gap-5">
                   <h4 className="text-2xl font-bold text-black w-full">
@@ -175,7 +175,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C59Images/" />
+                  <MyImage path="/C58Images/MB.png" />
 
                   <h5 className="text-sm w-full text-center text-black italic">
                     Source: Managebac website
