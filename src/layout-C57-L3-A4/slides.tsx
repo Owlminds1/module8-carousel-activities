@@ -73,11 +73,15 @@ const Slide = () => {
   }, [visibleCount, visibleCount2, activeSlide]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (SlideData2.length * 2 === visibleCount2) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount2]);
+  useEffect(() => {
+    if (activeSlide === 3) {
+     const  time=  setTimeout(()=>{
+        setOpen(true);
+      },3000)
+
+      return ()=> clearTimeout(time) 
+    }
+  }, [activeSlide]);
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">
@@ -162,7 +166,7 @@ const Slide = () => {
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-8 ">
                   <div>
-                    <p className="font-bold text-lg w-full">
+                    <p className="font-bold text-xl w-full">
                       Now let’s dive into the drivers’ analysis that allows us
                       to think through challenges in an effective manner.{" "}
                       <span className="font-light">

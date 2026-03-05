@@ -139,11 +139,13 @@ const Slide = () => {
   ]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (Slide3Data.length * 2 === visibleCount3) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount3]);
+  useEffect(() => {
+    if (activeSlide === 9 ) {
+      setTimeout(()=>{
+        setOpen(true);
+      },3000)
+    }
+  }, [activeSlide]);
 
   useEffect(() => {
     const handleFullscreenChange = () => {
@@ -473,10 +475,10 @@ const Slide = () => {
 
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-4 place-items-center p-2">
-                <div className="col-span-6">
+                {/* <div className="col-span-6">
                   <MyImage path="/C59Images/Airtag.jpeg" />
-                </div>
-                <div className=" col-span-6  w-full flex justify-center items-center flex-col gap-5 ">
+                </div> */}
+                <div className=" col-span-12  w-[50%] flex justify-center items-center flex-col gap-5 ">
                   <p className="w-full text-xl text-black">
                     Let’s practice! Go through this website of{" "}
                     <Link

@@ -1,0 +1,74 @@
+[
+    {
+
+        "text":"Expedia, a travel company, gets real-time airline data to adjust cost based on timing and competitors.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Dynamic Pricing"
+    },
+
+     {
+
+        "text":"Blinkit increases the price of service charges during hours when the demand is very high while lowering during early and late hours.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Dynamic Pricing"
+    },
+
+     {
+
+        "text":"After hurricane Katrina, the departmental stores sold water bottles at $20 instead of the usual $2.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Price Gouging"
+    },
+
+     {
+
+        "text":"When England stepped out of the European Union, the country’s economy collapsed leading to an increase in market prices of all items.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Inflation"
+    },
+
+     {
+
+        "text":"In a country like the Maldives, the cost of imported essentials such as rice are unusually high because of the local government’s policies.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Price Gouging"
+    },
+
+     {
+
+        "text":"Uber has introduced surge pricing for occasions such as high demand or unwillingness of drivers to serve at lower rates.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Dynamic Pricing"
+    },
+
+
+     {
+
+        "text":"In times of natural disasters such as earthquakes, companies in the Japanese market use stored stock to serve consumers in need ensuring the pricing to remain consistent.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Dynamic Pricing"
+    },
+    
+    {
+
+        "text":"In times of natural disasters such as storms, companies in the American market increase the price of electricity to unreasonable rates to adjust to high demand.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Price Gouging"
+    },
+
+     {
+
+        "text":"Fruitsellers increase prices of fruits when the economy isn’t doing very well.",
+        "img":"/C64Images/",
+        "opt":["Inflation","Dynamic Pricing","Price Gouging"],
+        "val":"Inflation"
+    }
+]

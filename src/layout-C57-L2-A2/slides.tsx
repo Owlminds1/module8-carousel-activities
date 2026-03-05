@@ -27,6 +27,7 @@ const Slide = () => {
   };
   const handleSlideChange = (swiper: SwiperClass) => {
     setActiveSlide(swiper.activeIndex);
+    scroll(0, 0);
   };
 
   //   enter to show more points logic
@@ -59,12 +60,15 @@ const Slide = () => {
     swiperRef.current?.updateAutoHeight();
   }, [visibleCount, visibleCount2, activeSlide]);
 
-  //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (SlideData2.length * 2 === visibleCount2) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount2]);
+  // when the student answer the all questions welldone box open
+  useEffect(() => {
+    if (activeSlide === 3) {
+      const time = setTimeout(() => {
+        setOpen(true);
+      }, 3000);
+      return()=> clearTimeout(time)
+    }
+  }, [activeSlide]);
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">

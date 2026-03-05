@@ -66,13 +66,13 @@ const handleDrop = (
         <MyImage path="/C58Images/Apple_Products.jpg" />
       </div>
       <div className="col-span-8 w-full flex flex-col gap-5 px-10 justify-center items-center">
-        <p className="text-xl  text-black ">
+        {/* <p className="text-xl  text-black ">
           Now I’d like you to identify a series of questions within diverse
           categories that would help Apple understand its customers before
           purchasing products and after purchasing products.{" "}
-        </p>
+        </p> */}
 
-        <p className="text-xl  text-black ">
+        <p className="text-2xl  text-black ">
           Drag and place the questions from the masterlist into their relevant
           categories of before and after the purchase.{" "}
         </p>
@@ -92,7 +92,7 @@ const handleDrop = (
     onDragStart={(e) =>
       e.dataTransfer.setData("text/plain", JSON.stringify(q))
     }
-    className="p-3 border hover:cursor-grab active:cursor-grabbing active:scale-95 transition-all duration-300 bg-gray-100 mb-2"
+    className="p-3 text-xl border hover:cursor-grab active:cursor-grabbing active:scale-95 transition-all duration-300 bg-gray-100 mb-2"
   >
     {q.text}
   </div>
@@ -119,7 +119,7 @@ const handleDrop = (
           {TableData.map((row, index) => (
             <React.Fragment key={index}>
               {/* CATEGORY */}
-              <div className="col-span-6 w-full border p-3 font-bold">
+              <div className="col-span-6 text-xl w-full border p-3 font-bold">
                 {row.category}
               </div>
 
@@ -130,7 +130,7 @@ const handleDrop = (
   onDrop={(e) => handleDrop(e, index, row.category, "before")}
 >
   {beforeItems[index]?.map((item, i) => (
-    <div key={i} className="font-semibold">
+    <div key={i} className="font-semibold  text-xl">
       {item}
     </div>
   ))}
@@ -150,7 +150,7 @@ const handleDrop = (
           {TableData.map((row, index) => (
             <React.Fragment key={index}>
               {/* CATEGORY */}
-              <div className="col-span-6 border p-3 font-bold">
+              <div className="col-span-6 text-xl border p-3 font-bold">
                 {row.category}
               </div>
 
@@ -161,7 +161,7 @@ const handleDrop = (
   onDrop={(e) => handleDrop(e, index, row.category, "after")}
 >
   {afterItems[index]?.map((item, i) => (
-    <div key={i} className="font-semibold">
+    <div key={i} className="font-semibold text-xl">
       {item}
     </div>
   ))}

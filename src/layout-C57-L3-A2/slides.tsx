@@ -15,8 +15,8 @@ const Slide = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
   const [open, setOpen] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
-  const [visibleCount, setVisibleCount] = useState(1);
-  const [visibleCount2, setVisibleCount2] = useState(1);
+  const [visibleCount, setVisibleCount] = useState(0);
+  const [visibleCount2, setVisibleCount2] = useState(0);
 
   const handlePrev = () => {
     swiperRef?.current?.slidePrev();
@@ -152,7 +152,7 @@ const Slide = () => {
 
                   {Slide2Data.length - 1 < visibleCount2 && (
                     <div className="flex flex-col gap-3 animate_fadeInUp">
-                      <h3 className="text-black font-bold text-xl">
+                      <h3 className="text-black font-bold text-3xl">
                         What products do you want to build?
                       </h3>
                     </div>

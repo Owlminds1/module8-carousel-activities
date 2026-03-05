@@ -178,7 +178,7 @@ const Slide = () => {
           <span
             onClick={handleNext}
             className={` ${
-              activeSlide < 4 ? "visible" : "invisible"
+              activeSlide < 3 ? "visible" : "invisible"
             }  cursor-pointer text-black text-4xl border border-black rounded-full p-3  bg-yellow-400`}
           >
             <FaArrowRight />

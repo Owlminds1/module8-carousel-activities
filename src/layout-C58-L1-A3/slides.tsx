@@ -10,6 +10,7 @@ import SlideData from "@/layout-C58-L1-A3/pointer1.json";
 
 import Welldone from "@/components/wellDone";
 import Table from "./table";
+import Image from "next/image";
 
 const Slide = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
@@ -18,6 +19,11 @@ const Slide = () => {
   const [open, setOpen] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
   const [visibleCount, setVisibleCount] = useState(1);
+ const [sound, setSound] = useState<HTMLAudioElement>();
+   useEffect(() => {
+      setSound(new Audio("/sound/crowd.mp3"));
+    }, []);
+   
 
   const handlePrev = () => {
     swiperRef?.current?.slidePrev();
@@ -38,7 +44,7 @@ const Slide = () => {
       const current = swiperRef.current?.activeIndex ?? activeSlide;
 
       if (current === 0) {
-        setVisibleCount((prev) => (prev < SlideData.length ? prev + 1 : prev));
+        setVisibleCount((prev) => (prev < 12 ? prev + 1 : prev));
 
         scrollRef.current?.scrollIntoView({
           block: "end",
@@ -57,8 +63,17 @@ const Slide = () => {
   }, [visibleCount, activeSlide]);
 
   const handleAdd = () => {
+    if(response.length > 1) return
     setResponse((prev) => [...prev, response]);
   };
+
+  useEffect(()=>{
+if(activeSlide === 3){
+sound?.play()
+}else{
+  sound?.pause()
+}
+  },[activeSlide])
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">
@@ -99,17 +114,116 @@ const Slide = () => {
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
                   <div className=" w-full space-y-3 px-2">
-                    {SlideData.slice(0, visibleCount).map((item, index) => (
-                      <p
-                        className="text-black text-lg animate_fadeInUp"
-                        key={index}
-                      >
-                        {item}
-                      </p>
-                    ))}
+                   {
+                    visibleCount >= 1 &&(
+                       <p className={` text-black text-xl animate_fadeInUp`}>
+                      They have asked the instructors to pass the survey during
+                      the workshop.
+                    </p>
+                    )
+                   }
+
+
+                    {
+                    visibleCount >= 2 &&(
+                       <p className={` text-black text-xl animate_fadeInUp`}>
+                     Each student has responded differently, but all the questions are the same.
+                    </p>
+                    )
+                   }
+
+
+                    {
+                    visibleCount >= 3 &&(
+                       <p className={` text-black font-bold text-xl animate_fadeInUp`}>
+                   Will you be able to guess the question from the list based on the response you see?
+                    </p>
+                    )
+                   }
+
+
+                     {
+                    visibleCount >= 4 &&(
+                       <p className={` text-black font-bold text-xl animate_fadeInUp`}>
+                And also tell whether the question is open-ended or close-ended?
+                    </p>
+                    )
+                   }
+
+                      {
+                    visibleCount >= 5 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+               Close-ended questions invite responses in the form of a yes or a no, whereas open-ended questions invite multiple answers that contain details. Open-ended questions provide deeper learning.
+                    </p>
+                    )
+                   }
+
+
+
+                     {
+                    visibleCount >= 6 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+          <span> For Example : </span>If the response is: The workshop was very engaging, interesting, and super fun. We identify this as an open response.
+                    </p>
+                    )
+                   }
+
+
+                        {
+                    visibleCount >= 7 &&(
+                       <p className={` text-black font-bold text-xl animate_fadeInUp`}>
+          <span>So then : </span>What is the question? 
+                    </p>
+                    )
+                   }
+
+
+                         {
+                    visibleCount >= 8 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+        We identify the question to be an open-ended question i.e. <span className="font-bold">How was the workshop?</span>
+                    </p>
+                    )
+                   }
+
+
+                       {
+                    visibleCount >= 9 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+       Similarly, If the response is: The workshop was engaging. We identify this as an open response.
+                    </p>
+                    )
+                   }
+
+
+                    {
+                    visibleCount >= 10 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+     <span>So then : </span> What is the question?
+                    </p>
+                    )
+                   }
+
+
+                      {
+                    visibleCount >= 11 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+    We identify the question to be a close-ended question i.e. <span className="font-bold">Was the workshop engaging or boring? </span>
+                    </p>
+                    )
+                   } 
+                   
+                   
+                    {
+                    visibleCount >= 12 &&(
+                       <p className={` text-black  text-xl animate_fadeInUp`}>
+   You will get the hang of it! Ready? Let’s go!
+                    </p>
+                    )
+                   }
                   </div>
 
-                  {SlideData.length > visibleCount && (
+                  {12 > visibleCount && (
                     <p className="text-gray-800 mt-3 text-center italic font-normal">
                       (Enter to show more points)
                     </p>
@@ -170,7 +284,7 @@ const Slide = () => {
                   ))}
                   <div className="col-span-12 text-center  w-full  p-1">
                     <button
-                      className="bg-violet-900 text-white px-5 py-2 cursor-pointer active:scale-95 transition-all duration-500 rounded-lg"
+                      className={`${response.length > 1 ? "hidden":""} bg-violet-900 text-white px-5 py-2 cursor-pointer active:scale-95 transition-all duration-500 rounded-lg`}
                       onClick={handleAdd}
                     >
                       Add Row{" "}
@@ -179,6 +293,21 @@ const Slide = () => {
                 </div>
               </div>
             </SwiperSlide>
+<SwiperSlide>
+           <div className="min-w-50 w-full p-5 bg-white flex justify-center items-center flex-col ">
+                    <Image
+                      src="/Well_Done.jpg"
+                      width={200}
+                      height={100}
+                      alt="well done image"
+                    />
+                    <h1 className="text-center text-3xl font-bold pb-10 text-black ">
+                      Well Done
+                    </h1>
+                   
+                  </div>
+            </SwiperSlide>
+           
           </Swiper>
         </div>
 
@@ -195,7 +324,7 @@ const Slide = () => {
           <span
             onClick={handleNext}
             className={` ${
-              activeSlide < 2 ? "visible" : "invisible"
+              activeSlide < 3 ? "visible" : "invisible"
             }  cursor-pointer text-black text-4xl border border-black rounded-full p-3  bg-yellow-400`}
           >
             <FaArrowRight />

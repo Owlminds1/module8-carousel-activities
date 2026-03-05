@@ -77,7 +77,7 @@ const Slide = () => {
             ? "Fill the template with each of your ideas (IDEA A/ IDEA B/ IDEA C) under the category of IDEA/PROBLEM/ACTION/RESULT/TEST. Make sure to read the definitions with examples to ensure you understand."
             : activeSlide === 1
               ? "Apply the “how, now, wow” technique to each idea to pick the best one."
-              : "Ideally, you should pick a wow idea."}
+              : "Ideally, you should pick a wow ideas."}
         </p>
       </div>
 
@@ -116,30 +116,30 @@ const Slide = () => {
                 </div>
                 <div className="col-span-2 w-full border flex justify-start h-full items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black text- font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       What is your product?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80 text-xl  ">
                     Example: Kobee’s product is all-natural lip balms.
                   </p>
                 </div>
 
                 <div className="col-span-2 w-full border flex justify-start h-full  items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black  font-medium ">
+                   <li className="text-black text-xl font-medium ">
                       What problem does it solve?
                     </li>
 
-                    <li className="text-black  font-medium ">
+                 <li className="text-black text-xl font-medium ">
                       Why do you want to make this product?
                     </li>
 
-                    <li className="text-black  font-medium ">
+                 <li className="text-black text-xl font-medium ">
                       Who is going to benefit from this product?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80 text-xl  ">
                     Example: Kobee’s product shines over the plastic lip balms
                     sold in the market ensuring people live a healthy,
                     sustainable, and plastic-free lifestyle.
@@ -148,11 +148,11 @@ const Slide = () => {
 
                 <div className="col-span-2 w-full border flex justify-start h-full  items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       What is its benefit?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80 text-xl ">
                     Example: Using natural lip balms protects your skin to keep
                     it radiant and natural.
                   </p>
@@ -160,11 +160,11 @@ const Slide = () => {
 
                 <div className="col-span-2 w-full border flex justify-start h-full  items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl  font-medium ">
                       How do you know you’ve made a successful prototype?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80  text-xl">
                     Example: Kobee made his first product out of formulating
                     with basic ingredients and then sold it to customers at his
                     pool job.
@@ -173,15 +173,15 @@ const Slide = () => {
 
                 <div className="col-span-2 w-full border flex justify-start h-full  items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       How much money do you need to build this product?
                     </li>
 
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       Who’s going to give you that money?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80  text-xl">
                     Example: Kobee asked $200 from his mother for the prototype
                     then had a larger investment from the money he made selling
                     the product. Then he approached Shark Tank’s investors for
@@ -191,20 +191,20 @@ const Slide = () => {
 
                 <div className="col-span-2 w-full border flex justify-start h-full  items-center p-3 flex-col gap-2 ">
                   <ul className="list-disc space-y-2 w-[80%]">
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       What are your plans with this product?
                     </li>
 
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       Where are you going to sell this product?
                     </li>
 
-                    <li className="text-black  font-medium ">
+                    <li className="text-black text-xl font-medium ">
                       What is the scale: does it impact 10s, 100s, 1000s,
                       millions or more (customers)?
                     </li>
                   </ul>
-                  <p className="text-black/80  ">
+                  <p className="text-black/80 text-xl ">
                     Example: Kobee’s product has already made $1.5 million since
                     2019. Now he wants a $300K investment to increase sales.
                   </p>
@@ -235,13 +235,13 @@ const Slide = () => {
                    <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-blue-400">
                     <h4 className="text-xl font-bold text-black text-center w-full">NOW</h4>
                     <p className="text-black/80 text-lg ">
-                     ideas that are easy to implement, are low risk, tried and tested examples, “normal ideas.” For example, the judges might see Kobee’s idea as a now idea as there are many other people who are making lip balms. And a lip balm can be made for 26 cents (low risk) to be sold for $5 (high yield).
+                     Ideas that are easy to implement, are low risk, tried and tested examples, “normal ideas.” For example, the judges might see Kobee’s idea as a now idea as there are many other people who are making lip balms. And a lip balm can be made for 26 cents (low risk) to be sold for $5 (high yield).
                     </p>
                   </div>
 
 
                     <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
-                    <h4 className="text-xl font-bold text-black text-center w-full">Wow</h4>
+                    <h4 className="text-xl font-bold text-black text-center w-full">How</h4>
                     <p className="text-black/80 text-lg ">
                    Ideas that are easy to implement and are medium-risk, original, and innovative.
 For example, Kobee decided to add personal essentials to his fleet of natural products. But he made sure that the cost isn’t too high given the lip balms account for 75% of the sales. At the moment, the personal essentials only account for 25%. Despite the difference, he is still making profit.
@@ -264,22 +264,21 @@ For example, Kobee decided to add personal essentials to his fleet of natural pr
                     </li>
                   </ul>
                 <div className="grid grid-cols-12 w-[60%] gap-0.5">
-                  <div className="col-span-6 w-full border border-black"></div>
 
-                  <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-[#FEEF20]">
-                    <h4 className="text-xl font-bold text-black text-center w-full">WOW</h4>
+                  <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-[#FEEF20]">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea A</h4>
                     <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
 
 
-                   <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-blue-400">
-                    <h4 className="text-xl font-bold text-black text-center w-full">NOW</h4>
+                   <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-blue-400">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea B</h4>
                       <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
 
 
-                    <div className="col-span-6 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
-                    <h4 className="text-xl font-bold text-black text-center w-full">Wow</h4>
+                    <div className="col-span-12 w-full flex justify-start items-center flex-col gap-3 border border-black p-2 bg-lime-500">
+                    <h4 className="text-xl font-bold text-black text-center w-full">Idea C</h4>
                     <textarea placeholder="write here..." className="text-lg text-black border border-black rounded-lg p-2 w-full" rows={3}/>
                   </div>
                 </div>

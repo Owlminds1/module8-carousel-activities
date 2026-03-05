@@ -1,0 +1,22 @@
+
+[
+  {
+    "text":"Where you’re (present status of your product)",
+    "suggestion":["The product is a schoolbag. We have had about 50 customers since we started three weeks ago. Most of the customers are friends and family. The product has succeeded in its initial stage."]
+  },
+  
+  {
+    "text":"Where you want to be (future goals of your product).",
+    "suggestion":["We want to reach at least 1500 customers in the next 15 months. This would require consistently selling the same amount at a steady rate. Then for the next three years, ideally, we would like to double the sales."]
+  },
+  
+  {
+    "text":"Questions to fill all gaps of obstacles that prevent you from thinking ahead with solutions.",
+    "suggestion":["We might face competition from other schoolbag sellers. But we can differentiate our product with the aspects of affordability, sustainability, and an add-on tag for protection. We will also communicate our values through marketing and advertising to showcase our vision of education and the accessories used by kids."]
+  },
+  
+  {
+    "text":"Conclude with a clear idea of how to get where you want to be.",
+    "suggestion":["Steady growth","Excellent product","Reliable customer service","Effective communication","Trusting customers","Brand & customer loyalty","Partnerships with influencers","Word of mouth","Partnerships with schools and other educational institutions"]
+  }
+]

@@ -69,7 +69,7 @@ const Table = () => {
             key={index}
             onDragStart={(e) => handleDrag(e, i)}
             draggable
-            className="border p-1 active:scale-95 active:cursor-grabbing hover:cursor-grab hover:border  hover:border-black/60 rounded-lg text-center  transition-all duration-300"
+            className="border text-xl p-1 active:scale-95 active:cursor-grabbing hover:cursor-grab hover:border  hover:border-black/60 rounded-lg text-center  transition-all duration-300"
           >
             {i.text}
           </h5>
@@ -93,7 +93,7 @@ const Table = () => {
           {" "}
           Suggest a Solution{" "}
         </div>
-        <div className="col-span-4 border text-center text-lg w-full text-black ">
+        <div className="col-span-4 border font-black flex justify-center items-center text-xl text-center  w-full text-black ">
           Teacher{" "}
         </div>
         {[...Array("teacher-1", "teacher-2")].map((type, index) => (
@@ -118,31 +118,7 @@ const Table = () => {
           </div>
         ))}
 
-        <div className="col-span-4 border text-center text-lg w-full text-black ">
-          Sibling
-        </div>
-
-        {[...Array("Sibling-1", "Sibling-2")].map((type, index) => (
-          <div
-            onDragOver={(e) => {
-              e.preventDefault();
-              e.currentTarget.classList.remove("shake");
-            }}
-            onDrop={(e) => handleDrop(e, type)}
-            key={index}
-            className="col-span-4 min-h-15 border p-3 flex flex-col gap-1 justify-start items-center text-center text-lg w-full text-black "
-          >
-            {dropItems[type] &&
-              dropItems[type].map((i, idx) => (
-                <p
-                  key={idx}
-                  className="text-black border rounded-lg bg-violet-100 text-md"
-                >
-                  {i.text}
-                </p>
-              ))}
-          </div>
-        ))}
+      
       </div>
 
 

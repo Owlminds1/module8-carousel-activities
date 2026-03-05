@@ -1,0 +1,43 @@
+[
+    {
+        "text":"Introduction",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Politesse",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Brevity",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Energy",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    } ,
+    
+    {
+        "text":"Eye Contact",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    {
+        "text":"Body Language",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    } ,
+    
+    
+    {
+        "text":"Tone",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    },
+    
+    
+    {
+        "text":"Closing Statement",
+        "list":["Excellent","Very Good","Good","Can Improve"]
+    }
+]

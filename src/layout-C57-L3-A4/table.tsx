@@ -16,20 +16,20 @@ const Table = ({ mode }: TableMode) => {
           Responses
         </div>
 
-        <div className="col-span-6 font-bold w-full min-h-15 text-black p-2 text-center border  ">
+        <div className="col-span-6  text-xl font-bold w-full min-h-15 text-black p-2 text-center border  ">
           What is driving [the distribution problem]?
         </div>
 
-        <div className="col-span-6 w-full min-h-15 text-black p-2 text-center border  ">
+        <div className="col-span-6 text-xl  w-full min-h-15 text-black p-2 text-center border  ">
           We have more products but fewer customers.
         </div>
 
         {TableData.map((i, index) => (
           <React.Fragment key={index}>
-            <div className="col-span-6 font-bold  h-full w-full min-h-15 text-black p-2 text-center border  ">
+            <div className="col-span-6 text-xl font-bold  h-full w-full min-h-15 text-black p-2 text-center border  ">
               {i.qus}
             </div>
-            <div className="col-span-6 w-full min-h-15 text-black p-2 text-center border  ">
+            <div className="col-span-6 text-xl w-full min-h-15 text-black p-2 text-center border  ">
               {mode == "input" && (
                 <textarea
                   placeholder="write here..."
@@ -42,7 +42,7 @@ const Table = ({ mode }: TableMode) => {
           </React.Fragment>
         ))}
         <div className="col-span-12 w-full min-h-15 text-black p-2 text-center border  ">
-          <h4 className="w-full font-bold text-left p-2"> SOLUTION:</h4>
+          <h4 className="w-full font-bold text-left p-2 text-xl"> SOLUTION:</h4>
           {mode == "input" && (
             <textarea
               placeholder="write here..."
@@ -52,7 +52,7 @@ const Table = ({ mode }: TableMode) => {
           )}
 
             {mode == "sol" && (
-            <p className="text-black text-lg  text-left px-2">
+            <p className="text-black text-xl text-left px-2">
               Find influencer partners who can help advertise at no cost. Share with close networks to get the word of mouth to try the product. Create on-demand products to avoid supplies without demand. 
 Try ads when the revenue is
 higher to reach more customers who can see existing positive reviews.

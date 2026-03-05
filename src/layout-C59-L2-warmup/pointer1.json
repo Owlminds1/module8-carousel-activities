@@ -6,7 +6,7 @@
 },
 
 {
-    "image": "/C59Images/Just_Do_It.jpg",
+    "image": "/C59Images/Just_do_It.jpg",
     "text":"Just Do It ",
     "answer":"(Nike or Shoes)"
 },
@@ -41,5 +41,17 @@
     "image": "/C59Images/Sprite.jpeg",
     "text":"Obey your thirst",
     "answer":"(Sprite or Soda)"
+},
+
+{
+    "image": "/C59Images/MC.jpg",
+    "text":"There are some things money can't buy. For everything else, there's _____.",
+    "answer":"MasterCard or Credit Card"
+},
+
+{
+    "image": "/C59Images/Lego2.jpg",
+    "text":"Only the Best is Good Enough",
+    "answer":"Lego Building Sets"
 }
 ]

@@ -54,12 +54,12 @@ const Slide = () => {
     swiperRef.current?.updateAutoHeight();
   }, [visibleCount2, activeSlide]);
 
-  //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (SlideData2.length * 2 === visibleCount2) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount2]);
+    // when the student answer the all questions welldone box open
+  useEffect(() => {
+    if (Slide2Data.length  === visibleCount2) {
+      setOpen(true);
+    }
+  }, [visibleCount2]);
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex justify-center items-center p-5 flex-col gap-5">
@@ -74,10 +74,12 @@ const Slide = () => {
                 : ""}
         </h4>
 
-        <p className="text-xl  text-center text-black ">
-          {activeSlide === 2
-            ? "Now use your understanding to go forward in time to build a product of your own! Think about:"
-            : ""}
+        <p className="text-xl w-[80%] text-center text-black ">
+          {activeSlide === 0
+            ? "Let’s play a game called the time machine. A time machine lets us travel in time. We can either go in the past or go forward in the future."
+            : activeSlide === 2
+              ? "Now use your understanding to go forward in time to build a product of your own! Think about:"
+              : ""}
         </p>
       </div>
 
@@ -97,7 +99,11 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2 gap-y-5">
                 <div className="col-span-6 w-full flex justify-center items-center ">
-                  <MyImage path="/C57Images/Time_Machine.jpg" width={300} height={100} />
+                  <MyImage
+                    path="/C57Images/Time_Machine.jpg"
+                    width={300}
+                    height={100}
+                  />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
                   <ul className="list-disc w-full space-y-3 px-2">
@@ -126,7 +132,9 @@ const Slide = () => {
                         className="col-span-4 flex flex-col gap-3 justify-center items-center w-full p-3 rounded-lg border border-black min-h-100 "
                       >
                         <MyImage path={item.img} width={200} height={100} />
-                        <h3 className="text-xl text-black ">{item.question}</h3>
+                        <h3 className="text-xl font-bold text-black ">
+                          {item.question}
+                        </h3>
                         <textarea
                           placeholder="write here..."
                           rows={3}
@@ -153,7 +161,9 @@ const Slide = () => {
                         className="col-span-4 flex flex-col gap-3 justify-start items-center w-full p-3 rounded-lg border border-black min-h-120 "
                       >
                         <MyImage path={item.img} width={200} height={100} />
-                        <h3 className="text-xl text-black ">{item.question}</h3>
+                        <h3 className="text-xl font-bold text-black ">
+                          {item.question}
+                        </h3>
                         <p className="w-full text-black/60 text-xl  p-2  rounded-lg  ">
                           {item.answers}
                         </p>
@@ -166,10 +176,10 @@ const Slide = () => {
 
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
-                <div className="col-span-6 w-full flex justify-center items-center ">
+                {/* <div className="col-span-6 w-full flex justify-center items-center ">
                   <MyImage path="/C57Images/" />
-                </div>
-                <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
+                </div> */}
+                <div className=" col-span-12 w-[50%] flex justify-center items-center flex-col gap-5 ">
                   <ul className="list-disc w-full space-y-3 px-2">
                     {Slide2Data.slice(0, visibleCount2).map((item, index) => (
                       <li

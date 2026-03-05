@@ -59,7 +59,7 @@ const Slide = () => {
 
         scrollRef2.current?.scrollIntoView({
           behavior: "smooth",
-          block: "start",
+          block: "end",
         });
       }
 
@@ -136,12 +136,16 @@ const Slide = () => {
                     Lemonade at a lemonade stand as part of the school fair.
                   </p>
                 </div>
-                {SlideData.slice(0, visibleCount).map((i, index) => {
-                  return (
-                      <div  key={index} className=" col-span-12 w-[50%]  flex justify-center items-center flex-col gap-5 ">
+
+                <div className="col-span-12 w-[50%]  flex justify-center items-center flex-col gap-5 ">
+
                           <h3 className="text-2xl text-black font-bold">
                          Q&A
                         </h3>
+                
+                {SlideData.slice(0, visibleCount).map((i, index) => {
+                  return (
+                      <div  key={index} className=" w-full  flex justify-center items-center flex-col gap-5 ">
                         <h3 className="text-xl text-black font-bold w-full">
                           {i.question}
                         </h3>
@@ -154,6 +158,7 @@ const Slide = () => {
                       </div>
                   );
                 })}
+                </div>
                 <div className="col-span-12 w-full">
                   {SlideData.length > visibleCount && (
                     <p className="text-gray-800 mt-3 text-center italic font-normal">
@@ -191,7 +196,7 @@ const Slide = () => {
                         )}
 
                         {showAnswer && (
-                          <p className="text-black/80 font-medium text-lg  w-full ">
+                          <p className="text-black/80 font-medium text-xl  w-full ">
                             Answer : {i.response}
                           </p>
                         )}
@@ -214,7 +219,7 @@ const Slide = () => {
              <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C59Images/" />
+                  <MyImage path="/C59Images/flyer.png" />
                 </div>
                 <div className="col-span-6 w-full">
                   <ul className="list-disc space-y-3 w-full">

@@ -1,0 +1,7 @@
+[
+  "If the response is: The lemonade was very delicious. Then we know it’s an open response. What is the question?",
+  "The question then would be open-ended: How was the lemonade?",
+  "If the response is: Yes, the lemonade was delicious. Then we know it’s a close-ended response. What is the question?",
+  "The question then would be close-ended: Was the lemonade delicious?"
+
+]

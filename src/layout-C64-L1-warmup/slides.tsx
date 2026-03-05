@@ -90,7 +90,7 @@ const Slide = () => {
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             onSlideChange={handleSlideChange}
           >
-            {SlideData.map((item, index) => (
+            {shuffle.map((item, index) => (
               <SwiperSlide>
                 <div className="grid grid-cols-12 w-full place-items-center gap-8 ">
                   <div className="col-span-12 w-full">

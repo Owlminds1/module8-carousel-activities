@@ -1,0 +1,26 @@
+[
+     {
+        "tite":"Inform",
+        "text":"Let people know about a product (phone) or a service (kids’ salon) that a company promotes."
+    },
+
+     {
+        "tite":"Persuade",
+        "text":" Show why a company’s product or service is better than others."
+    },
+     {
+        "tite":"Remind",
+        "text":"Keep the product or service of the company in people’s minds so they don’t forget."
+    },
+
+     {
+        "tite":"Build Trust",
+        "text":"Make people believe in the company’s values through branding."
+    },
+    
+    
+    {
+        "tite":"Increase Sales",
+        "text":"More people buying means the business and the company earn more money."
+    }
+]

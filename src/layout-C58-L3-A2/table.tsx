@@ -63,7 +63,7 @@ const Table = ({swiperRef }:TableProps) => {
             draggable
             onDragStart={(e) => e.dataTransfer.setData("drag", i)}
             key={index}
-            className="text-lg hover:cursor-grab active:cursor-grabbing active:scale-95 transition-all duration-150 w-full text-center border border-violet-900 rounded-lg p-1"
+            className="text-xl hover:cursor-grab active:cursor-grabbing active:scale-95 transition-all duration-150 w-full text-center border border-violet-900 rounded-lg p-1"
           >
             {i}
           </h4>

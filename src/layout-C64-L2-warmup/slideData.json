@@ -1,0 +1,45 @@
+[
+  {
+    "text":"A company that makes shoes. It has the catchiest tagline of all its competitors. Michael Jordan became their ambassador.",
+    "answer":"Nike"
+  },
+
+  {
+    "text":"An online marketplace where you can buy everything from a hairpin to a stove. The brand has its locations across the globe.",
+    "answer":"Amazon"
+  } ,
+  
+  
+  {
+    "text":"An animation studio that has made films like Toy Story, Inside Out, and Luca.",
+    "answer":"Pixar"
+  },
+  
+  
+  {
+    "text":"One of the most distinguished mobile handset companies in the world that also makes computers, RFID Tags, smartwatches, and entertainment essentials.",
+    "answer":"Apple"
+  },
+  
+  
+  {
+    "text":"A highly appreciated company that creates sets of brick toys for players to play.",
+    "answer":"LEGO"
+  },
+  
+  {
+    "text":"An online streaming platform to watch entertainment on demand such as movies, TV shows, documentaries, and so on.",
+    "answer":"Netflix"
+  } ,
+  
+  
+  {
+    "text":"A service to book cabs, autos, or bikes, on demand as well as to order food.",
+    "answer":"Uber"
+  },
+  
+  {
+    "text":"A service to rent housing for brief or long duration in any country.",
+    "answer":"AirBnB"
+  }
+]

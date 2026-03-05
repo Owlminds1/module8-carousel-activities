@@ -49,8 +49,7 @@ setOpen(true)
         </h4>
 
         <p className="text-xl font-medium text-center text-black ">
-          So now you get to look at images of brands you know and see if you can
-          guess the product!
+           Look at the images and guess the product sold.
         </p>
       </div>
 

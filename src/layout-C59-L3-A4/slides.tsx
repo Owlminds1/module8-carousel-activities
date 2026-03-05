@@ -66,7 +66,7 @@ const Slide = () => {
       }
 
       if (current === 2) {
-        setVisibleCount3((prev) => (prev < 4 ? prev + 1 : prev));
+        setVisibleCount3((prev) => (prev < 3 ? prev + 1 : prev));
 
         scrollRef3.current?.scrollIntoView({
           behavior: "smooth",
@@ -145,11 +145,11 @@ const Slide = () => {
   ]);
 
   //   when the student answer the all questions welldone box open
-  // useEffect(() => {
-  //   if (Slide3Data.length * 2 === visibleCount3) {
-  //     setOpen(true);
-  //   }
-  // }, [visibleCount3]);
+  useEffect(() => {
+    if (6 === visibleCount6) {
+      setOpen(true);
+    }
+  }, [visibleCount6]);
 
   useEffect(() => {
     const handleFullscreenChange = () => {
@@ -383,25 +383,9 @@ const Slide = () => {
                     </div>
                   )}
 
+                
+
                   {visibleCount3 >= 3 && (
-                    <div className="flex flex-col gap-2 w-full">
-                      <span className="font-bold text-xl">
-                        {" "}
-                        INTRODUCE YOURSELF{" "}
-                      </span>
-
-                      <p className="text-xl text-black w-full">
-                        <span className="font-bold">Seller:</span> I can
-                        understand!.{" "}
-                        <input
-                          placeholder="write here..."
-                          className="text-lg w-full text-black outline-0 border-b border-black px-2  placeholder:font-normal  "
-                        />
-                      </p>
-                    </div>
-                  )}
-
-                  {visibleCount3 >= 4 && (
                     <p className="text-xl text-black w-full">
                       <span className="font-bold"> Customer : </span> I’m
                       looking for a tag for up to $50. But I want a quality tag,
@@ -409,7 +393,7 @@ const Slide = () => {
                     </p>
                   )}
 
-                  {4 > visibleCount3 && (
+                  {3 > visibleCount3 && (
                     <p className="text-gray-800 animate_fadeInUp mt-3 text-center italic font-normal">
                       (Enter to show more points)
                     </p>
@@ -562,8 +546,8 @@ const Slide = () => {
                           href="https://www.apple.com/in/shop/buy-airtag/airtag/1-pack"
                           target="blank"
                           className="text-blue-300"
-                        ></Link>{" "}
-                        (Here is a resource to consult)
+                        > (Here is a resource to consult)</Link>{" "}
+                       
                       </p>
                     </div>
                   )}
