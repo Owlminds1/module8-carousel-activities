@@ -1,7 +1,7 @@
 [
     {
         "text":"Netflix charges its customers a minimum monthly fee of $2 in India to avail its services of on-demand entertainment.",
-        "image":"/C64Images",
+        "image":"/C64Images/Netflix.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Subscription"
     } ,
@@ -9,7 +9,7 @@
     
     {
         "text":"Samsung sells its mobile phones at a starting range of $150.",
-        "image":"/C64Images",
+        "image":"/C64Images/Samsung.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Pay as You Go"
     } ,
@@ -17,21 +17,21 @@
     
     {
         "text":"Ikea sells its furniture items permitting installments.",
-        "image":"/C64Images",
+        "image":"/C64Images/Ikea.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Pay as You Go"
     },
     
     {
         "text":"Hertz lets drivers borrow a car for a few days for a fee based on the number of days it’s used.",
-        "image":"/C64Images",
+        "image":"/C64Images/Hertz.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Lease"
     },
     
     {
         "text":"Apple sells its laptop at a starting range of $1500.",
-        "image":"/C64Images",
+        "image":"/C64Images/Apple.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Pay as You Go"
     },
@@ -39,7 +39,7 @@
     
     {
         "text":"Substack makes readers pay a monthly fee to access articles, books, poetry, music, and videos among other literary and audiovisual entertainment.",
-        "image":"/C64Images",
+        "image":"/C64Images/Substack.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Subscription"
     } ,
@@ -47,7 +47,7 @@
     
     {
         "text":"Furlenco allows residents to use home furnishings and appliances for a fee based on the duration of time they are used.",
-        "image":"/C64Images",
+        "image":"/C64Images/Furlenco.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Lease"
     } ,
@@ -55,7 +55,7 @@
     
     {
         "text":"Listeners can pay a specific amount on a monthly basis to listen to songs and podcasts on Apple Music",
-        "image":"/C64Images",
+        "image":"/C64Images/Apple_Music.png",
         "opt":["Subscription","Pay as You Go","Lease"],
         "val":"Subscription"
     }

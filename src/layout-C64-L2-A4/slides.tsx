@@ -172,7 +172,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Marketing.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                   <div>
@@ -253,7 +253,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Reel.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                   <div>
@@ -301,7 +301,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Boss.png" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                   <div>
@@ -361,14 +361,14 @@ const Slide = () => {
 
             <SwiperSlide>
               {Slide4Data.map((item, index) => (
-                <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
+                <div key={index} className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                   <div className="col-span-6">
                     <MyImage path={item.img} />
                   </div>
                   <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                     <div>
-                      <h3 className="text-2xl font-bold py-3 text-black">
-                        {item.text}
+                      <h3 className="text-2xl  py-3 text-black">
+                       <span className="font-bold">{item.titel} : </span> {item.text}
                       </h3>
 
                       <p className="text-xl py-3 text-black">{item.text2}</p>
