@@ -230,7 +230,7 @@ bgCorrect?.play()
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-5 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images/" />
+                  <MyImage path="/C64Images/Business_Plan3.jpg" />
                 </div>
 
                 <div className="col-span-6 w-full  flex flex-col justify-center items-center gap-5">
@@ -275,7 +275,7 @@ bgCorrect?.play()
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-5 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images/" />
+                  <MyImage path="/C64Images/Business_Plan_Activity.jpg" />
                 </div>
 
                 <div className="col-span-6 w-full  flex flex-col justify-center items-center gap-5">

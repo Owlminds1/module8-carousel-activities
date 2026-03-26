@@ -5,7 +5,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "PAIN-KILLER"
+        "val": "PAIN-KILLER",
+        "img":"/C57Images/Raincoat.jpg"
     },
     {
         "question": "Bookshelf",
@@ -13,7 +14,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "PAIN-KILLER"
+        "val": "PAIN-KILLER",
+        "img":"/C57Images/Bookshelf.jpg"
     },
     {
         "question": "Coffee Table",
@@ -21,7 +23,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "VITAMIN"
+        "val": "VITAMIN",
+        "img":"/C57Images/Coffee_Table.jpg"
     },
     {
         "question": "Water Bottle",
@@ -29,7 +32,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "PAIN-KILLER"
+        "val": "PAIN-KILLER",
+        "img":"/C57Images/Water.jpeg"
     },
     {
         "question": "Drying Rack",
@@ -37,7 +41,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "PAIN-KILLER"
+        "val": "PAIN-KILLER",
+        "img":"/C57Images/Rack.jpg"
     },
     {
         "question": "Posters",
@@ -45,7 +50,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "VITAMIN"
+        "val": "VITAMIN",
+        "img":"/C57Images/Poster.jpg"
     },
     {
         "question": "Dresses with Pockets",
@@ -53,7 +59,8 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "VITAMIN"
+        "val": "VITAMIN",
+        "img":"/C57Images/Dress.jpg"
     },
     {
         "question": "Perfume",
@@ -61,6 +68,7 @@
             "VITAMIN",
             "PAIN-KILLER"
         ],
-        "val": "VITAMIN"
+        "val": "VITAMIN",
+        "img":"/C57Images/Perfume.jpg"
     }
 ]
