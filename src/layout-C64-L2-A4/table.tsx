@@ -1,9 +1,13 @@
+import MyImage from "@/components/MyImage";
 import TableData from "@/layout-C64-L2-A4/table.json";
 import React from "react";
 
 const Table = () => {
   return (
-    <div className={`   gap-2 w-full grid grid-cols-12 `}>
+    <div className={`   gap-2 w-full grid grid-cols-12 `}>\
+    <div className="col-span-12 w-full flex justify-center items-center">
+        <MyImage path="/C64Images/Rubric.jpg" />
+    </div>
       <div className="col-span-4 w-full text-xl text-white bg-violet-900 text-center p-2 ">
         ELEMENT
       </div>

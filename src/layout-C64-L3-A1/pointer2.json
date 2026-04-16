@@ -2,29 +2,29 @@
    {
     "text":"The genesis of this product (refer to the video): How did the product begin?",
     "suggestion":["The product began as an imported set of shoes from Onitsutka Tiger, a Japanese brand that Nike's founder, Phil, really liked.","While in business school, he had written a paper on Japanese brands doing better than their German counterparts.","He wanted to do the same with their shoes. So he sold these Japanese shoes as a distributor in the U.S."],
-    "image":"/C64Images/"
+    "image":"/C64Images/Onitsuka_Tiger.png"
   },
    {
     "text":"The motivation for product design: What inspired the establishment of the Nike brand? Transformation from Blue Ribbon Sports to Nike: How did Nike evolve?",
     "suggestion":["Phil and the co-founder (Bill Bowermann), a popular track and field coach, began improving Onitsuka shoes by enhancing the cushion or using lighter materials.","When the demand was higher than the supply, Phil and Bill decided to launch their own brand using Bill’s innovative design.","They called the brand NIke after the suggestion of their first employee. Nike refers to the Greek goddess of victory.","The logo was designed by a university student for merely $35 in 1971. The swoosh is still part of Nike’s branding."],
-    "image":"/C64Images/"
+    "image":"/C64Images/Bill.png"
   },
 
    {
     "text":"Early adopters (to encourage & try the prototype): Who were the first people to try Nike’s product?",
     "suggestion":["Phil used a network of subcontractors across Japan with production under his brand.","In 1989, Phil signed a bunch of Rookie athletes alongside the “Just Do It” marketing campaign and became one of the highest selling shoe brands in the U.S."],
-    "image":"/C64Images/"
+    "image":"/C64Images/Nike.png"
   },
 
   {
     "text":"The personality of the entrepreneur: What is Phil’s personality like?",
     "suggestion":["Phil Knight is a diligent entrepreneur who believes that the only way to achieve something is to just do it.","He had a knack for finding quality, talent, and innovation with consistency.","He exhibits a go-getter attitude with optimism, kindness, and confidence."],
-    "image":"/C64Images/"
+    "image":"/C64Images/Partnerships.png"
   },
 
   {
     "text":"The partners’ perception of the entrepreneur: What do the partners think about Phil?",
     "suggestion":["Phil’s partner, Bill, believed him exactly the way Phil perceived himself."],
-    "image":"/C64Images/"
+    "image":"/C64Images/ust_Do_It.png"
   }
 ]

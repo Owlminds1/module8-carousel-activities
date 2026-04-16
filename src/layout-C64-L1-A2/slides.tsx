@@ -208,7 +208,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-4 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Intro.jpg" />
                 </div>
                 <div className=" col-span-6  w-full flex justify-center items-center flex-col gap-5 ">
                   <p className="text-2xl  text-black w-full">
@@ -224,7 +224,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-4 place-items-center p-2">
  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Lemonade2.jpg" />
                 </div>
 
                 <div className=" col-span-6   w-full flex justify-center items-center flex-col  gap-4 ">
@@ -272,7 +272,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Bananas.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -322,7 +322,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Strawberries.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -377,7 +377,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Corn.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -432,7 +432,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Spinach.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -487,7 +487,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Almonds.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -541,7 +541,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Pineapple.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -595,7 +595,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Maincourse.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 
@@ -649,7 +649,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                  <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Selling.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-3 ">
 

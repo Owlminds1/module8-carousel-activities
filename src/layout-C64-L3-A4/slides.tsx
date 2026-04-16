@@ -157,7 +157,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Image" />
+                  <MyImage path="/C64Images/Marketing.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                   <div>
@@ -238,7 +238,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
                 <div className="col-span-6">
-                  <MyImage path="/C64Image" />
+                  <MyImage path="/C64Images/Reel.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
                   <div>
@@ -318,7 +318,7 @@ const Slide = () => {
                   {visibleCount4 >= 1 && (
                     <div className="w-full">
                       <div className="w-full flex justify-center items-center gap-2">
-                        <MyImage path="/C64Images" width={200} />
+                        <MyImage path="/C64Images/Beginning.png" width={200} />
                       </div>
                       <ul className="list-disc">
                         <li className="text-xl text-black">
@@ -362,8 +362,8 @@ const Slide = () => {
                   {visibleCount4 >= 5 && (
                     <div className="w-full">
                       <div className="w-full flex justify-center items-center gap-2">
-                        <MyImage path="/C64Images" width={200} />
-                        <MyImage path="/C64Images" width={200} />
+                        <MyImage path="/C64Images/Imagination.png" width={200} />
+                        <MyImage path="/C64Images/Playing.png" width={200} />
                       </div>
                       <ul className="list-disc">
                         <li className="text-xl text-black">
@@ -398,9 +398,9 @@ const Slide = () => {
                   {visibleCount4 >= 8 && (
                     <div className="w-full">
                       <div className="w-full flex justify-center items-center gap-2">
-                        <MyImage path="/C64Images" width={200} />
-                        <MyImage path="/C64Images" width={200} />
-                        <MyImage path="/C64Images" width={200} />
+                        <MyImage path="/C64Images/Can.png" width={200} />
+                        <MyImage path="/C64Images/Ending.png" width={200} />
+                        <MyImage path="/C64Images/Cooperation.png" width={200} />
                       </div>
                       <ul className="list-disc">
                         <li className="text-xl text-black">

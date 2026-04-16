@@ -202,7 +202,7 @@ const Slide = () => {
 
                 <div className="col-span-12 w-full  flex flex-col justify-center items-center gap-5">
                   <h4 className="font-bold text-2xl ">Q&A</h4>
-                  <MyImage path="/C64Images/" />
+                  <MyImage path="/C64Images/Phil.png" />
                 </div>
                 {Slide2Data.slice(0, visibleCount2).map((item, index) => (
                   <div

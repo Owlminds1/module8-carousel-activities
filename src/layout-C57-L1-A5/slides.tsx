@@ -118,7 +118,7 @@ const Slide = () => {
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
                 <div className="col-span-6 w-full flex justify-center items-center ">
-                  <MyImage path="/C57Images/" />
+                  <MyImage path="/C57Images/c.png" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
                   <ul className="list-disc w-full space-y-3 px-2">
@@ -170,7 +170,7 @@ const Slide = () => {
                   </div>
 
                   <div className="col-span-12 w-full flex justify-center items-center flex-col gap-8">
-                    <MyImage path="/C57Images" />
+                    <MyImage path={i.img} />
 
                     <h4 className="text-3xl font-medium text-center text-black">
                       {i.question}

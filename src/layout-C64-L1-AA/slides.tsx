@@ -109,7 +109,7 @@ const Slide = () => {
               <div className="grid grid-cols-12 gap-y-10 place-items-center p-2">
 
                 <div className="col-span-6">
-                  <MyImage path="/C64Images" />
+                  <MyImage path="/C64Images/Etiquettes.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-start flex-col gap-1 ">
 

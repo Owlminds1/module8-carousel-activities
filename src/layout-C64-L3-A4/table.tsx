@@ -1,3 +1,4 @@
+import MyImage from "@/components/MyImage";
 import dropZone from "@/layout-C64-L3-A4/table.json";
 import React from "react";
 
@@ -6,6 +7,9 @@ const Table = () => {
     <div className="flex flex-col gap-12 justify-center items-center ">
       <div className="grid grid-cols-12 gap-5 w-full ">
         <div className={`col-span-12  gap-1 w-full grid grid-cols-12 `}>
+          <div className="col-span-12 flex justify-center items-center w-full">
+               <MyImage path="/C64Images/Rubric.jpg" />
+          </div>
           <div className="col-span-4 w-full text-xl text-white bg-violet-900 text-center p-2 ">
             Element
           </div>
