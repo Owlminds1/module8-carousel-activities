@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "text": "Reviews product currently in use",
+    "category": "DOING"
+  },
+  {
+    "id": 2,
+    "text": "Visits the store or purchases online",
+    "category": "DOING"
+  },
+  {
+    "id": 3,
+    "text": "Tries to resell the existing product to add to the budget for the new product",
+    "category": "DOING"
+  },
+  {
+    "id": 4,
+    "text": "Searches online",
+    "category": "DOING"
+  },
+  {
+    "id": 5,
+    "text": "Analyses the price points of a range of ipads",
+    "category": "DOING"
+  },
+  {
+    "id": 6,
+    "text": "Reviews product websites",
+    "category": "DOING"
+  },
+  {
+    "id": 7,
+    "text": "Reads articles and reviews",
+    "category": "DOING"
+  },
+  {
+    "id": 8,
+    "text": "Watches commercials",
+    "category": "DOING"
+  },
+  {
+    "id": 9,
+    "text": "Discusses ways to return the existing item for reimbursements or cashback",
+    "category": "DOING"
+  },
+  {
+    "id": 10,
+    "text": "Asks friends and family for recommendations",
+    "category": "DOING"
+  },
+  {
+    "id": 11,
+    "text": "Outlines what is missing",
+    "category": "THINKING"
+  },
+  {
+    "id": 12,
+    "text": "Hope the purchase is worth it",
+    "category": "THINKING"
+  },
+  {
+    "id": 13,
+    "text": "What's best to try first",
+    "category": "THINKING"
+  },
+  {
+    "id": 14,
+    "text": "What's functional",
+    "category": "THINKING"
+  },
+  {
+    "id": 15,
+    "text": "What's recommended",
+    "category": "THINKING"
+  },
+  {
+    "id": 16,
+    "text": "How to sell the existing product",
+    "category": "THINKING"
+  },
+  {
+    "id": 17,
+    "text": "What's affordable",
+    "category": "THINKING"
+  },
+  {
+    "id": 18,
+    "text": "What's durable",
+    "category": "THINKING"
+  },
+  {
+    "id": 19,
+    "text": "\"I'm excited to try hoping it's all worth it!\"",
+    "category": "SAYING"
+  },
+  {
+    "id": 20,
+    "text": "\"Wow this product has some great reviews and it's within my budget. My friends seem to love it\"",
+    "category": "SAYING"
+  },
+  {
+    "id": 21,
+    "text": "\"Done. I'm going to try this ipad model.\"",
+    "category": "SAYING"
+  },
+  {
+    "id": 22,
+    "text": "\"I wonder if I can find a better quality mini computer\"",
+    "category": "SAYING"
+  }
+]
