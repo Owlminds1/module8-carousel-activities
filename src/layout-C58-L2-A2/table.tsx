@@ -10,6 +10,7 @@ const [afterItems, setAfterItems] = useState<{ [key: number]: string[] }>({});
   const [shuffle, setShuffle] = useState(dragData);
   const [open, setOpen] = useState(false);
   const [correct, setCorrect] = useState<HTMLAudioElement>();
+  const [zoomedImage, setZoomedImage] = useState<string | null>(null);
 
   useEffect(() => {
     setShuffle((prev) => [...prev].sort(() => Math.random() - 0.5));
@@ -62,7 +63,10 @@ const handleDrop = (
 
     <div className="flex justify-center items-center flex-col ">
       <div className="grid grid-cols-12 w-full gap-y-6">
-          <div className="col-span-4 w-full p-3 ">
+          <div
+        className="col-span-4 w-full p-3 cursor-pointer hover:opacity-80 transition-opacity"
+        onClick={() => setZoomedImage("/C58Images/Apple_Products.jpg")}
+      >
         <MyImage path="/C58Images/Apple_Products.jpg" />
       </div>
       <div className="col-span-8 w-full flex flex-col gap-5 px-10 justify-center items-center">
@@ -172,6 +176,26 @@ const handleDrop = (
       </div>
       <Welldone open={open} setOpen={setOpen} />
     </div>
+
+    {zoomedImage && (
+      <div
+        className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 p-4"
+        onClick={() => setZoomedImage(null)}
+      >
+        <div
+          className="relative bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-auto"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            onClick={() => setZoomedImage(null)}
+            className="absolute top-4 right-4 text-black text-3xl hover:bg-gray-200 rounded-full w-10 h-10 flex items-center justify-center"
+          >
+            ×
+          </button>
+          <img src={zoomedImage} alt="Zoomed" className="w-full h-auto" />
+        </div>
+      </div>
+    )}
     </div>
   );
 };

@@ -19,6 +19,7 @@ const Slide = () => {
   const [open, setOpen] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
   const [visibleCount, setVisibleCount] = useState(1);
+  const [zoomedImage, setZoomedImage] = useState<string | null>(null);
 
   const handlePrev = () => {
     swiperRef?.current?.slidePrev();
@@ -97,7 +98,10 @@ const Slide = () => {
           >
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
-                <div className="col-span-6 w-full flex justify-center items-center ">
+                <div
+                  className="col-span-6 w-full flex justify-center items-center cursor-pointer hover:opacity-80 transition-opacity"
+                  onClick={() => setZoomedImage("/C58Images/Apple.jpg")}
+                >
                   <MyImage path="/C58Images/Apple.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
@@ -116,7 +120,10 @@ const Slide = () => {
 
             <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
-                <div className="col-span-6 w-full flex justify-center items-center ">
+                <div
+                  className="col-span-6 w-full flex justify-center items-center cursor-pointer hover:opacity-80 transition-opacity"
+                  onClick={() => setZoomedImage("/C58Images/Apple_Headquarters.jpg")}
+                >
                   <MyImage path="/C58Images/Apple_Headquarters.jpg" />
                 </div>
                 <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 ">
@@ -127,7 +134,7 @@ const Slide = () => {
                   </p>
                   <ul className="list-disc space-y-3">
                     {SlideData.slice(0, visibleCount).map((i, index) => (
-                      <li key={index} className="text-xl text-black">{i}</li>
+                      <li key={index} className="text-xl text-black animate_fadeInUp">{i}</li>
                     ))}
                   </ul>
 
@@ -144,12 +151,31 @@ const Slide = () => {
 
              <SwiperSlide>
               <div className="grid grid-cols-12 place-items-center p-2">
-                <div className="col-span-12 w-full flex justify-center items-center ">
-                 {/* <MyImage path=""/> */}
-
-                 <Link href="https://www.youtube.com/watch?v=fOHj5kGU4fY ?" target="blank" className="bg-violet-900 text-white px-5 py-2 rounded-lg active:scale-95 transition-all duration-150 text-xl" >Video </Link>
+                <div className="col-span-6 w-full flex justify-center items-center">
+                  <div className="w-full aspect-video rounded-lg overflow-hidden shadow-md">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/5hENFA3CJUY"
+                      title="Apple Video"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
-              
+                <div className=" col-span-6 w-full flex justify-center items-center flex-col gap-5 px-5">
+                  <p className="text-black text-xl animate_fadeInUp leading-relaxed">
+                    Watch how Apple brings its design philosophy to life —
+                    turning simplicity and functionality into products
+                    customers love.
+                  </p>
+                  <Link
+                    href="https://youtu.be/5hENFA3CJUY"
+                    target="_blank"
+                    className="bg-violet-900 text-white px-5 py-2 rounded-lg hover:bg-violet-800 active:scale-95 transition-all duration-150 text-xl"
+                  >
+                    Watch on YouTube
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
 
@@ -181,6 +207,26 @@ const Slide = () => {
           </span>
         </div>
       </div>
+
+      {zoomedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 p-4"
+          onClick={() => setZoomedImage(null)}
+        >
+          <div
+            className="relative bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setZoomedImage(null)}
+              className="absolute top-4 right-4 text-black text-3xl hover:bg-gray-200 rounded-full w-10 h-10 flex items-center justify-center"
+            >
+              ×
+            </button>
+            <img src={zoomedImage} alt="Zoomed" className="w-full h-auto" />
+          </div>
+        </div>
+      )}
 
       <Welldone open={open} setOpen={setOpen} />
     </div>
